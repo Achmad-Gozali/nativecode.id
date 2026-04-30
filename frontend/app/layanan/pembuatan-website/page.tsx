@@ -135,7 +135,7 @@ export default function PembuatanWebsite() {
             </div>
             <div className="hidden lg:flex items-center justify-center">
               <img
-                src="/images/hero/web.png"
+                src="/images/hero/webdesain.png"
                 alt="Web Design nativecode.id"
                 className="w-full max-w-md object-contain"
                 style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }}

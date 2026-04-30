@@ -398,7 +398,7 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="fade-left hidden lg:flex items-center justify-center">
-              <img src="/images/hero/web.png" alt="Web Design nativecode.id" className="w-full max-w-lg object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
+              <img src="/images/hero/webdesain.png" alt="Web Design nativecode.id" className="w-full max-w-lg object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
             </div>
             <div className="fade-right">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Mau Buat Website?</h2>
