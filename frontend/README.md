@@ -1,6 +1,6 @@
-# pixelcodedigital.id
+# nativecode.id
 
-Website resmi **pixelcodedigital.id** — Jasa Pembuatan Website Profesional & SEO Bergaransi.
+Website resmi **nativecode.id** — Jasa Pembuatan Website Profesional & SEO Bergaransi.
 
 ## Tech Stack
 
@@ -15,8 +15,8 @@ Website resmi **pixelcodedigital.id** — Jasa Pembuatan Website Profesional & S
 
 1. Clone repositori:
    ```bash
-   git clone https://github.com/username/pixelcodedigital.git
-   cd pixelcodedigital
+   git clone https://github.com/username/nativecode.git
+   cd nativecode
    ```
 
 2. Install dependencies:
@@ -69,5 +69,5 @@ public/
 
 ## Kontak
 
-- Website: [pixelcodedigital.id](https://pixelcodedigital.id)
-- Email: info@pixelcodedigital.id
+- Website: [nativecode.id](https://nativecode.id)
+- Email: info@nativecode.id

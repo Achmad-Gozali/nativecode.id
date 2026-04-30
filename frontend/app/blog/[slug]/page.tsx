@@ -88,7 +88,7 @@ export default async function BlogDetail({
 
   const terkait = getArtikelTerkait(post.slug, post.kategori);
 
-  const WA_URL = `https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+pixelcodedigital.id.+Mohon+bantuannya+%F0%9F%99%8F`;
+  const WA_URL = `https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F`;
 
   return (
     <>
@@ -144,7 +144,7 @@ export default async function BlogDetail({
                 Ingin website yang lebih siap untuk bisnis Anda?
               </p>
               <p className="text-gray-500 text-sm sm:text-base leading-relaxed mb-5">
-                pixelcodedigital.id membantu pembuatan website bisnis, optimasi SEO, dan strategi digital agar bisnis Anda lebih mudah ditemukan dan dipercaya pelanggan.
+                nativecode.id membantu pembuatan website bisnis, optimasi SEO, dan strategi digital agar bisnis Anda lebih mudah ditemukan dan dipercaya pelanggan.
               </p>
               <a
                 href={WA_URL}

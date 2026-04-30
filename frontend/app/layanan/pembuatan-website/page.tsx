@@ -51,10 +51,10 @@ const IconDoc = ({ size = 24 }: { size?: number }) => (
 );
 
 const paket = [
-  { nama: 'Silver', medal: '/images/paket/silver.png', harga: '700K', perpanjangan: '500ribu/tahun', bestSeller: false, fitur: ['4 Menu','FREE Domain Web.id','Hosting 500 MB (30 foto kuota kerja)','Include Listing di pixelcodedigital.id'], deskDetail: 'Paket ini cocok untuk Anda yang baru memulai bisnis dan membutuhkan website sederhana, praktis, dan mudah diakses.', fiturDetail: ['Integrasi Sosial Media','Website SSL','Template WP Premium','User + Video Panduan Edit','Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Standar Kontak Form','Free Support','Bergaransi Selamanya'] },
-  { nama: 'Gold', medal: '/images/paket/gold.png', harga: '1.6 Jt', perpanjangan: '600ribu/tahun', bestSeller: true, fitur: ['8 Menu','FREE Domain .com','Hosting 3 GB (70 foto kuota kerja)','Include Listing di pixelcodedigital.id'], deskDetail: 'Paket ini cocok untuk Anda yang ingin memiliki website dengan fitur lengkap.', fiturDetail: ['Integrasi Media Sosial','Free Whatsapp/Telepon','Website SSL','Template WP Premium','Perpanjang Setiap Tahun','User dan Video Panduan Edit','Free Banner dan Logo','Pemasangan Google Map','Respon Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Statistic Kunjungan Website','Standar Kontak Form','Free Support','Garansi Selamanya'] },
-  { nama: 'Diamond', medal: '/images/paket/diamond.png', harga: '2 Jt', perpanjangan: '1 Juta/tahun', bestSeller: false, fitur: ['10 Menu','FREE Domain .com/.co.id','Hosting 3 GB (90 foto kuota kerja)','Include Listing di pixelcodedigital.id'], deskDetail: 'Paket desain website ini sangat cocok bagi Anda yang membutuhkan website sebagai profil bisnis.', fiturDetail: ['Integrasi Media Sosial','Free Whatsapp/Telepon','Website SSL','Template WP Premium','Perpanjang Setiap Tahun','User dan Video Panduan Edit','Plugin Premium','Free Banner dan Logo','Pemasangan Google Map','Respon Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Statistic Kunjungan Website','Standar Kontak Form','Free Support','Garansi Selamanya'] },
-  { nama: 'Platinum', medal: '/images/paket/platinum.png', harga: '3 Jt', perpanjangan: '1.5 Juta/tahun', bestSeller: false, fitur: ['15-20 Menu','FREE Domain .com, .co.id, .co, .id, .asia, .xyz','Hosting 5 GB (120 foto kuota kerja)','Include Listing di pixelcodedigital.id'], deskDetail: 'Paket desain website ini cocok untuk Anda yang membutuhkan website dengan fitur khusus dan desain menarik.', fiturDetail: ['Free Whatsapp/Telepon','Integrasi Media Sosial','Website SSL','Template WP Premium','Perpanjang Setiap Tahun','User dan Video Panduan Edit','Plugin Premium','Free Banner dan Logo','Free 1 Email Bisnis','Pemasangan Google Map','Respon Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Statistic Kunjungan Website','Standar Kontak Form','Free Support','Garansi Selamanya','Integrasi Lapak Media'] },
+  { nama: 'Silver', medal: '/images/paket/silver.png', harga: '700K', perpanjangan: '500ribu/tahun', bestSeller: false, fitur: ['4 Menu','FREE Domain Web.id','Hosting 500 MB (30 foto kuota kerja)','Include Listing di nativecode.id'], deskDetail: 'Paket ini cocok untuk Anda yang baru memulai bisnis dan membutuhkan website sederhana, praktis, dan mudah diakses.', fiturDetail: ['Integrasi Sosial Media','Website SSL','Template WP Premium','User + Video Panduan Edit','Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Standar Kontak Form','Free Support','Bergaransi Selamanya'] },
+  { nama: 'Gold', medal: '/images/paket/gold.png', harga: '1.6 Jt', perpanjangan: '600ribu/tahun', bestSeller: true, fitur: ['8 Menu','FREE Domain .com','Hosting 3 GB (70 foto kuota kerja)','Include Listing di nativecode.id'], deskDetail: 'Paket ini cocok untuk Anda yang ingin memiliki website dengan fitur lengkap.', fiturDetail: ['Integrasi Media Sosial','Free Whatsapp/Telepon','Website SSL','Template WP Premium','Perpanjang Setiap Tahun','User dan Video Panduan Edit','Free Banner dan Logo','Pemasangan Google Map','Respon Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Statistic Kunjungan Website','Standar Kontak Form','Free Support','Garansi Selamanya'] },
+  { nama: 'Diamond', medal: '/images/paket/diamond.png', harga: '2 Jt', perpanjangan: '1 Juta/tahun', bestSeller: false, fitur: ['10 Menu','FREE Domain .com/.co.id','Hosting 3 GB (90 foto kuota kerja)','Include Listing di nativecode.id'], deskDetail: 'Paket desain website ini sangat cocok bagi Anda yang membutuhkan website sebagai profil bisnis.', fiturDetail: ['Integrasi Media Sosial','Free Whatsapp/Telepon','Website SSL','Template WP Premium','Perpanjang Setiap Tahun','User dan Video Panduan Edit','Plugin Premium','Free Banner dan Logo','Pemasangan Google Map','Respon Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Statistic Kunjungan Website','Standar Kontak Form','Free Support','Garansi Selamanya'] },
+  { nama: 'Platinum', medal: '/images/paket/platinum.png', harga: '3 Jt', perpanjangan: '1.5 Juta/tahun', bestSeller: false, fitur: ['15-20 Menu','FREE Domain .com, .co.id, .co, .id, .asia, .xyz','Hosting 5 GB (120 foto kuota kerja)','Include Listing di nativecode.id'], deskDetail: 'Paket desain website ini cocok untuk Anda yang membutuhkan website dengan fitur khusus dan desain menarik.', fiturDetail: ['Free Whatsapp/Telepon','Integrasi Media Sosial','Website SSL','Template WP Premium','Perpanjang Setiap Tahun','User dan Video Panduan Edit','Plugin Premium','Free Banner dan Logo','Free 1 Email Bisnis','Pemasangan Google Map','Respon Server Rata-Rata 5 Mili Detik','Bandwidth Unlimited','Statistic Kunjungan Website','Standar Kontak Form','Free Support','Garansi Selamanya','Integrasi Lapak Media'] },
 ];
 
 const fiturUnggulan = [
@@ -87,13 +87,13 @@ export default function PembuatanWebsite() {
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Jasa Pembuatan Website</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
           <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2 max-w-lg">
             Jasa Pembuatan <span className="text-[#D17B36] font-semibold">Website Profesional</span> dan{' '}
             <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
           <a
-            href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Website.+Mohon+bantuannya+%F0%9F%99%8F"
+            href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Website.+Mohon+bantuannya+%F0%9F%99%8F"
             target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
           >
@@ -107,17 +107,17 @@ export default function PembuatanWebsite() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-1">
-                <span className="text-[#D17B36]">pixelcodedigital</span><span className="text-[#5D9C76]">.id</span>
+                <span className="text-[#D17B36]">nativecode</span><span className="text-[#5D9C76]">.id</span>
               </h2>
               <p className="font-semibold text-gray-800 text-base sm:text-lg mb-4">
                 Tampil lebih profesional. Ditemukan lebih cepat. Dikenal lebih luas
               </p>
-              <p className="text-gray-600 leading-relaxed mb-8 text-sm sm:text-base">
+              <p className="text-gray-60 leading-relaxed mb-8 text-sm sm:text-base">
                 Kami menghadirkan website yang menarik, responsif, dan fungsional, dirancang khusus untuk mencerminkan identitas brand Anda.
               </p>
               <div className="flex gap-3 flex-wrap">
                 <a
-                  href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Website.+Mohon+bantuannya+%F0%9F%99%8F"
+                  href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Website.+Mohon+bantuannya+%F0%9F%99%8F"
                   target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm"
                 >
@@ -136,7 +136,7 @@ export default function PembuatanWebsite() {
             <div className="hidden lg:flex items-center justify-center">
               <img
                 src="/images/hero/web.png"
-                alt="Web Design pixelcodedigital.id"
+                alt="Web Design nativecode.id"
                 className="w-full max-w-md object-contain"
                 style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }}
               />
@@ -168,7 +168,7 @@ export default function PembuatanWebsite() {
                       <p className="text-3xl sm:text-4xl font-bold mb-1 text-[#5D9C76]">{p.harga}</p>
                       <p className="text-xs text-gray-400 mb-4">Perpanjangan {p.perpanjangan}</p>
                       <a
-                        href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Website.+Mohon+bantuannya+%F0%9F%99%8F"
+                        href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Website.+Mohon+bantuannya+%F0%9F%99%8F"
                         target="_blank" rel="noopener noreferrer"
                         className={`w-full py-2.5 rounded-full border font-semibold text-sm mb-4 flex items-center justify-center gap-2 transition-colors ${p.bestSeller ? 'border-[#5D9C76] text-[#5D9C76] hover:bg-[#5D9C76] hover:text-white' : 'border-[#D17B36] text-[#D17B36] hover:bg-[#D17B36] hover:text-white'}`}
                       >
@@ -218,7 +218,7 @@ export default function PembuatanWebsite() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
           <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Fitur Unggulan</h2>
           <p className="text-center font-semibold text-gray-700 mb-2 text-sm sm:text-base">Dapatkan Semua Fitur Ini Secara Gratis!</p>
-          <p className="text-center text-gray-500 mb-8 sm:mb-12 text-sm sm:text-base">Inilah yang Anda dapatkan dari Jasa Pembuatan Website pixelcodedigital.id</p>
+          <p className="text-center text-gray-500 mb-8 sm:mb-12 text-sm sm:text-base">Inilah yang Anda dapatkan dari Jasa Pembuatan Website nativecode.id</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
             {fiturUnggulan.map((f, i) => (
               <div key={i} className="bg-white border border-gray-100 rounded-2xl p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3">

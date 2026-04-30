@@ -10,7 +10,7 @@ export type Post = {
 export const posts: Post[] = [
   {
     slug: 'jasa-pembuatan-website-profesional-bisnis-umkm',
-    judul: 'Jasa Pembuatan Website Profesional untuk Bisnis dan UMKM – pixelcodedigital.id',
+    judul: 'Jasa Pembuatan Website Profesional untuk Bisnis dan UMKM – nativecode.id',
     kategori: 'WEBSITE',
     tanggal: '25 April 2026',
     excerpt: 'Di era digital saat ini, memiliki website profesional bukan lagi sekadar pilihan, melainkan kebutuhan utama bagi setiap bisnis. Website adalah fondasi kehadiran digital yang kuat.',
@@ -47,9 +47,9 @@ Setiap halaman harus memiliki ajakan bertindak yang jelas — apakah itu menghub
 ### 5. Optimasi SEO
 Website yang dioptimasi untuk mesin pencari akan lebih mudah ditemukan oleh calon pelanggan potensial.
 
-## Kenapa Pilih pixelcodedigital.id?
+## Kenapa Pilih nativecode.id?
 
-pixelcodedigital.id hadir sebagai solusi jasa pembuatan website profesional yang terpercaya. Dengan pengalaman membangun ratusan website untuk berbagai jenis bisnis, kami memahami apa yang dibutuhkan oleh bisnis Anda.
+nativecode.id hadir sebagai solusi jasa pembuatan website profesional yang terpercaya. Dengan pengalaman membangun ratusan website untuk berbagai jenis bisnis, kami memahami apa yang dibutuhkan oleh bisnis Anda.
 
 Setiap website yang kami buat dirancang dengan mempertimbangkan:
 - Identitas brand klien
@@ -63,12 +63,12 @@ Mulai dari paket Silver hingga Platinum, kami menyediakan solusi website yang se
 
 Website profesional adalah investasi terbaik untuk bisnis Anda di era digital ini. Jangan tunda lagi — semakin cepat bisnis Anda hadir secara online, semakin besar peluang yang bisa Anda raih.
 
-Hubungi tim pixelcodedigital.id sekarang untuk konsultasi gratis dan mulai perjalanan digital bisnis Anda!
+Hubungi tim nativecode.id sekarang untuk konsultasi gratis dan mulai perjalanan digital bisnis Anda!
     `,
   },
   {
-    slug: 'pixelcodedigital-solusi-digital-terpadu-website-seo-iklan',
-    judul: 'pixelcodedigital.id – Solusi Digital Terpadu: Dari Website, SEO, hingga Iklan Online',
+    slug: 'nativecode-solusi-digital-terpadu-website-seo-iklan',
+    judul: 'nativecode.id – Solusi Digital Terpadu: Dari Website, SEO, hingga Iklan Online',
     kategori: 'DIGITAL',
     tanggal: '25 April 2026',
     excerpt: 'Di tengah perkembangan dunia digital yang semakin pesat, memiliki kehadiran online yang kuat menjadi hal wajib bagi setiap bisnis yang ingin terus berkembang.',
@@ -77,7 +77,7 @@ Di tengah perkembangan dunia digital yang semakin pesat, memiliki kehadiran onli
 
 ## Ekosistem Digital yang Terintegrasi
 
-pixelcodedigital.id hadir sebagai mitra digital terpadu yang membantu bisnis Anda membangun kehadiran online secara menyeluruh — mulai dari website, optimasi SEO, hingga pengelolaan iklan berbayar.
+nativecode.id hadir sebagai mitra digital terpadu yang membantu bisnis Anda membangun kehadiran online secara menyeluruh — mulai dari website, optimasi SEO, hingga pengelolaan iklan berbayar.
 
 ### Website — Fondasi Digital Bisnis Anda
 
@@ -95,16 +95,16 @@ Sementara SEO membutuhkan waktu untuk menunjukkan hasil, iklan berbayar (Google 
 
 Banyak bisnis yang hanya fokus pada satu aspek digital marketing dan mengabaikan yang lain. Padahal, kombinasi yang tepat antara website yang kuat, SEO yang solid, dan iklan yang teroptimasi akan memberikan hasil yang jauh lebih maksimal.
 
-Di pixelcodedigital.id, kami membantu Anda merancang strategi digital yang holistik — memastikan setiap elemen bekerja sinergis untuk mencapai tujuan bisnis Anda.
+Di nativecode.id, kami membantu Anda merancang strategi digital yang holistik — memastikan setiap elemen bekerja sinergis untuk mencapai tujuan bisnis Anda.
 
-## Mulai Perjalanan Digital Anda Bersama pixelcodedigital.id
+## Mulai Perjalanan Digital Anda Bersama nativecode.id
 
-Dengan tim profesional yang berpengalaman, pixelcodedigital.id siap menjadi mitra terpercaya dalam perjalanan digital bisnis Anda. Konsultasikan kebutuhan digital Anda hari ini dan dapatkan solusi yang tepat sasaran.
+Dengan tim profesional yang berpengalaman, nativecode.id siap menjadi mitra terpercaya dalam perjalanan digital bisnis Anda. Konsultasikan kebutuhan digital Anda hari ini dan dapatkan solusi yang tepat sasaran.
     `,
   },
   {
     slug: 'keuntungan-jasa-seo-bergaransi-bisnis',
-    judul: 'Keuntungan Menggunakan Jasa SEO Bergaransi untuk Bisnis Anda – pixelcodedigital.id',
+    judul: 'Keuntungan Menggunakan Jasa SEO Bergaransi untuk Bisnis Anda – nativecode.id',
     kategori: 'SEO',
     tanggal: '25 April 2026',
     excerpt: 'Di era digital saat ini, persaingan bisnis di dunia online semakin ketat. Ribuan website berlomba-lomba untuk tampil di halaman pertama Google.',
@@ -115,7 +115,7 @@ Di era digital saat ini, persaingan bisnis di dunia online semakin ketat. Ribuan
 
 SEO Bergaransi adalah layanan optimasi mesin pencari yang memberikan jaminan hasil — artinya, jika website Anda belum muncul di halaman pertama Google sesuai target, ada konsekuensi yang jelas dari penyedia jasa.
 
-Di pixelcodedigital.id, kami menawarkan SEO Bergaransi dengan komitmen nyata: website Anda akan tampil di hasil pencarian Google untuk kata kunci yang telah disepakati.
+Di nativecode.id, kami menawarkan SEO Bergaransi dengan komitmen nyata: website Anda akan tampil di hasil pencarian Google untuk kata kunci yang telah disepakati.
 
 ## Keuntungan Menggunakan Jasa SEO Bergaransi
 
@@ -134,7 +134,7 @@ Website yang muncul di halaman pertama Google otomatis mendapatkan kepercayaan l
 ### 5. Biaya Lebih Efisien Jangka Panjang
 Meskipun investasi awal mungkin lebih besar, biaya per lead dari SEO jauh lebih rendah dibanding iklan berbayar dalam jangka panjang.
 
-## Bagaimana Proses SEO Bergaransi di pixelcodedigital.id?
+## Bagaimana Proses SEO Bergaransi di nativecode.id?
 
 1. **Konsultasi & Riset Keyword** — Kami mengidentifikasi kata kunci yang paling relevan dan menguntungkan untuk bisnis Anda.
 2. **Optimasi On-Page** — Perbaikan struktur website, meta tag, konten, dan elemen teknis lainnya.
@@ -143,7 +143,7 @@ Meskipun investasi awal mungkin lebih besar, biaya per lead dari SEO jauh lebih 
 
 ## Mulai SEO Bergaransi Hari Ini
 
-Jangan biarkan kompetitor Anda terus mendominasi halaman pertama Google. Hubungi tim pixelcodedigital.id sekarang dan mulai perjalanan SEO bergaransi bisnis Anda!
+Jangan biarkan kompetitor Anda terus mendominasi halaman pertama Google. Hubungi tim nativecode.id sekarang dan mulai perjalanan SEO bergaransi bisnis Anda!
     `,
   },
   {
@@ -182,11 +182,11 @@ Hindari agency yang tidak jelas dalam struktur harga mereka. Agency terpercaya a
 ### 7. Referensi dari Klien Sebelumnya
 Minta referensi dari klien yang pernah menggunakan jasa mereka dan hubungi langsung untuk mendapatkan feedback yang jujur.
 
-## Mengapa pixelcodedigital.id Adalah Pilihan Tepat?
+## Mengapa nativecode.id Adalah Pilihan Tepat?
 
-pixelcodedigital.id memenuhi semua kriteria di atas. Dengan pengalaman bertahun-tahun, portfolio yang kuat, dan komitmen terhadap hasil yang terukur, kami siap menjadi mitra digital terpercaya untuk bisnis Anda.
+nativecode.id memenuhi semua kriteria di atas. Dengan pengalaman bertahun-tahun, portfolio yang kuat, dan komitmen terhadap hasil yang terukur, kami siap menjadi mitra digital terpercaya untuk bisnis Anda.
 
-Konsultasikan kebutuhan digital bisnis Anda dengan tim pixelcodedigital.id hari ini!
+Konsultasikan kebutuhan digital bisnis Anda dengan tim nativecode.id hari ini!
     `,
   },
   {
@@ -229,9 +229,9 @@ Mulai dengan budget yang kecil, pelajari data performanya, lalu scale up secara 
 - Mengabaikan Quality Score
 - Tidak melakukan A/B testing pada copy iklan
 
-## Percayakan Google Ads Bisnis Anda ke pixelcodedigital.id
+## Percayakan Google Ads Bisnis Anda ke nativecode.id
 
-Tim pixelcodedigital.id berpengalaman dalam mengelola kampanye Google Ads untuk berbagai jenis bisnis di Indonesia. Kami akan memastikan setiap rupiah budget iklan Anda menghasilkan hasil yang maksimal.
+Tim nativecode.id berpengalaman dalam mengelola kampanye Google Ads untuk berbagai jenis bisnis di Indonesia. Kami akan memastikan setiap rupiah budget iklan Anda menghasilkan hasil yang maksimal.
     `,
   },
   {
@@ -275,9 +275,9 @@ Balas komentar, ajukan pertanyaan, dan berinteraksi aktif dengan followers Anda.
 ### 5. Manfaatkan User Generated Content
 Dorong pelanggan Anda untuk berbagi pengalaman mereka dengan produk/jasa Anda. UGC adalah bentuk testimonial yang paling autentik.
 
-## Percayakan Social Media Bisnis Anda ke pixelcodedigital.id
+## Percayakan Social Media Bisnis Anda ke nativecode.id
 
-Tim kreatif pixelcodedigital.id siap membantu bisnis Anda tampil maksimal di social media — dari pembuatan konten, pengelolaan akun, hingga kampanye iklan berbayar yang teroptimasi.
+Tim kreatif nativecode.id siap membantu bisnis Anda tampil maksimal di social media — dari pembuatan konten, pengelolaan akun, hingga kampanye iklan berbayar yang teroptimasi.
     `,
   },
   {
@@ -318,9 +318,9 @@ Dengan website responsif, Anda tidak perlu mengelola versi desktop dan mobile se
 - Tidak perlu scroll horizontal
 - Loading cepat di koneksi mobile
 
-## Semua Website pixelcodedigital.id Sudah Responsif
+## Semua Website nativecode.id Sudah Responsif
 
-Setiap website yang kami bangun di pixelcodedigital.id sudah dirancang dengan pendekatan mobile-first — memastikan tampilan yang sempurna di semua perangkat. Hubungi kami untuk konsultasi website responsif untuk bisnis Anda!
+Setiap website yang kami bangun di nativecode.id sudah dirancang dengan pendekatan mobile-first — memastikan tampilan yang sempurna di semua perangkat. Hubungi kami untuk konsultasi website responsif untuk bisnis Anda!
     `,
   },
   {
@@ -364,7 +364,7 @@ Gunakan URL yang pendek, deskriptif, dan mengandung keyword utama. Hindari pengg
 
 ## Mulai Optimalkan SEO On-Page Website Anda
 
-Butuh bantuan mengoptimalkan SEO website Anda? Tim pixelcodedigital.id siap membantu! Dengan pengalaman dalam SEO Bergaransi, kami memastikan website Anda mendapatkan peringkat terbaik di Google.
+Butuh bantuan mengoptimalkan SEO website Anda? Tim nativecode.id siap membantu! Dengan pengalaman dalam SEO Bergaransi, kami memastikan website Anda mendapatkan peringkat terbaik di Google.
     `,
   },
   {
@@ -401,9 +401,9 @@ Brand semakin banyak menggunakan ilustrasi kustom sebagai identitas visual yang 
 
 ## Bagaimana Menerapkan Tren Ini untuk Bisnis Anda?
 
-Tidak semua tren cocok untuk setiap jenis bisnis. Yang terpenting adalah konsistensi dengan identitas brand Anda. Tim desainer pixelcodedigital.id akan membantu Anda memilih dan menerapkan tren yang paling sesuai dengan bisnis Anda.
+Tidak semua tren cocok untuk setiap jenis bisnis. Yang terpenting adalah konsistensi dengan identitas brand Anda. Tim desainer nativecode.id akan membantu Anda memilih dan menerapkan tren yang paling sesuai dengan bisnis Anda.
 
-Konsultasikan kebutuhan desain website Anda dengan pixelcodedigital.id hari ini!
+Konsultasikan kebutuhan desain website Anda dengan nativecode.id hari ini!
     `,
   },
   {
@@ -443,11 +443,11 @@ Untuk bisnis jasa seperti salon, klinik, atau restoran — aplikasi memudahkan b
 ### Loyalty App
 Aplikasi yang memungkinkan bisnis menjalankan program loyalitas, memberikan reward, dan meningkatkan repeat purchase.
 
-## Kenapa Pilih pixelcodedigital.id untuk Pembuatan Aplikasi?
+## Kenapa Pilih nativecode.id untuk Pembuatan Aplikasi?
 
-pixelcodedigital.id memiliki tim developer berpengalaman yang mampu membangun aplikasi Android dan iOS yang fungsional, intuitif, dan sesuai dengan kebutuhan bisnis Anda. Dari konsep hingga publikasi di App Store dan Play Store, kami menangani semuanya.
+nativecode.id memiliki tim developer berpengalaman yang mampu membangun aplikasi Android dan iOS yang fungsional, intuitif, dan sesuai dengan kebutuhan bisnis Anda. Dari konsep hingga publikasi di App Store dan Play Store, kami menangani semuanya.
 
-Hubungi pixelcodedigital.id sekarang untuk konsultasi pembuatan aplikasi mobile bisnis Anda!
+Hubungi nativecode.id sekarang untuk konsultasi pembuatan aplikasi mobile bisnis Anda!
     `,
   },
   {
@@ -487,9 +487,9 @@ Pelanggan yang terhubung secara emosional dengan brand Anda akan menjadi pelangg
 - **Social Media Presence** — Kehadiran aktif dan konsisten di platform yang relevan
 - **Konten Marketing** — Konten yang memberikan nilai bagi audiens
 
-## Bangun Brand Digital yang Kuat Bersama pixelcodedigital.id
+## Bangun Brand Digital yang Kuat Bersama nativecode.id
 
-pixelcodedigital.id menyediakan layanan lengkap untuk membantu UMKM membangun brand digital yang kuat — mulai dari desain logo, pembuatan website, pengelolaan social media, hingga strategi konten marketing.
+nativecode.id menyediakan layanan lengkap untuk membantu UMKM membangun brand digital yang kuat — mulai dari desain logo, pembuatan website, pengelolaan social media, hingga strategi konten marketing.
 
 Mulai bangun brand digital bisnis Anda hari ini!
     `,
@@ -542,11 +542,11 @@ Selalu sertakan call-to-action yang jelas — apakah itu mengunjungi website, me
 ### 5. A/B Testing
 Buat beberapa versi iklan dan uji mana yang paling efektif. Data adalah kunci untuk mengoptimalkan performa iklan Anda.
 
-## Kelola TikTok Ads Bisnis Anda Bersama pixelcodedigital.id
+## Kelola TikTok Ads Bisnis Anda Bersama nativecode.id
 
-Tim pixelcodedigital.id berpengalaman dalam mengelola kampanye TikTok Ads yang menghasilkan. Dari pembuatan konten video, targeting audiens, hingga optimasi anggaran — kami tangani semuanya.
+Tim nativecode.id berpengalaman dalam mengelola kampanye TikTok Ads yang menghasilkan. Dari pembuatan konten video, targeting audiens, hingga optimasi anggaran — kami tangani semuanya.
 
-Hubungi pixelcodedigital.id sekarang dan mulai kampanye TikTok Ads bisnis Anda!
+Hubungi nativecode.id sekarang dan mulai kampanye TikTok Ads bisnis Anda!
     `,
   },
 ];

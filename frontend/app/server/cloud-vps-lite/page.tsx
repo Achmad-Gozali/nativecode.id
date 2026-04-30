@@ -6,7 +6,7 @@ import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
 import { paketVPSLite, keunggulanVPSLite, fiturVPSLite, type PaketVPS, type KeunggulanItem } from '@/data/cloud-vps-lite';
 
-const WA_URL = 'https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+Cloud+VPS+Lite.+Mohon+bantuannya+%F0%9F%99%8F';
+const WA_URL = 'https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+Cloud+VPS+Lite.+Mohon+bantuannya+%F0%9F%99%8F';
 
 function formatHarga(n: number) {
   return n.toLocaleString('id-ID');
@@ -155,7 +155,7 @@ export default function CloudVPSLitePage() {
                 <div className="bg-white/20 rounded-lg px-3 py-1.5">
                   <span className="text-white font-bold text-sm">Cloud VPS Lite</span>
                 </div>
-                <span className="text-white/60 text-xs">powered by DomaiNesia × pixelcodedigital.id</span>
+                <span className="text-white/60 text-xs">powered by DomaiNesia × nativecode.id</span>
               </div>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
                 Cloud VPS Murah Rp48.000<br />Didukung Intel Xeon Platinum
@@ -356,7 +356,7 @@ export default function CloudVPSLitePage() {
           <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="text-white">
               <h2 className="text-xl sm:text-2xl font-bold mb-1">Butuh Cloud VPS Kustom yang Handal untuk perusahaan Anda?</h2>
-              <p className="text-white/75 text-sm">Jangan ragu untuk menghubungi tim pixelcodedigital.id untuk mendapatkan solusi yang tepat sesuai dengan kebutuhan anda.</p>
+              <p className="text-white/75 text-sm">Jangan ragu untuk menghubungi tim nativecode.id untuk mendapatkan solusi yang tepat sesuai dengan kebutuhan anda.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <a

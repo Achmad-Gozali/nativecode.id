@@ -91,14 +91,14 @@ export default function GoogleAds() {
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Iklan Google Ads</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
           <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan{' '}
             <span className="text-[#D17B36] font-semibold">Website Profesional</span>{' '}
             dan{' '}
             <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
-          <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Iklan+Google+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
+          <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Iklan+Google+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
             <HeadphonesIcon size={18} />Konsultasi
           </a>
         </section>
@@ -110,13 +110,13 @@ export default function GoogleAds() {
               <div className="flex items-center gap-2 mb-4">
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-1">
-                <span className="text-[#D17B36]">pixelcode</span><span className="text-[#5D9C76]">.id</span>
+                <span className="text-[#D17B36]">nativecode</span><span className="text-[#5D9C76]">.id</span>
               </h2>
               <p className="font-semibold text-gray-800 text-base sm:text-lg mb-4">Jangkau Calon Pelanggan Tepat Sasaran dengan Strategi Iklan yang Efektif!</p>
-              <p className="text-gray-600 leading-relaxed mb-3 text-sm sm:text-base">Bersama pixelcodedigital.id, kampanye Google Ads Anda dikelola secara profesional untuk meningkatkan visibilitas, mendatangkan traffic berkualitas, dan memaksimalkan hasil dengan anggaran efisien.</p>
+              <p className="text-gray-600 leading-relaxed mb-3 text-sm sm:text-base">Bersama nativecode.id, kampanye Google Ads Anda dikelola secara profesional untuk meningkatkan visibilitas, mendatangkan traffic berkualitas, dan memaksimalkan hasil dengan anggaran efisien.</p>
               <p className="font-semibold text-gray-800 mb-8 text-sm sm:text-base">Iklan yang tepat, hasil yang nyata!</p>
               <div className="flex gap-3 flex-wrap">
-                <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Iklan+Google+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base">
+                <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Iklan+Google+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base">
                   <HeadphonesIcon size={16} />Konsultasi
                 </a>
                 <a href="#paket" className="inline-flex items-center gap-2 border border-[#5D9C76] text-[#5D9C76] px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#5D9C76] hover:text-white transition-colors text-sm sm:text-base">
@@ -218,7 +218,7 @@ export default function GoogleAds() {
           {/* CTA bawah FAQ */}
           <div className="mt-8 flex items-center gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm px-5 sm:px-6 py-4">
             <p className="flex-1 text-sm text-gray-500">Masih ada pertanyaan? Konsultasikan langsung dengan tim kami.</p>
-            <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Iklan+Google+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-[#c26f2f] transition-colors whitespace-nowrap">
+            <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Iklan+Google+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-[#c26f2f] transition-colors whitespace-nowrap">
               <HeadphonesIcon size={14} />Tanya Sekarang
             </a>
           </div>

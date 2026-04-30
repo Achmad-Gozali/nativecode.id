@@ -113,7 +113,7 @@ const fiturUnggulan = [
       </svg>
     ),
     title: 'Bantuan Migrasi Situs',
-    desc: 'Pindah hosting ke DomaiNesia lewat rekomendasi pixelcodedigital.id? Tim DomaiNesia siap membantu migrasi seluruh data Anda tanpa biaya tambahan dalam waktu kurang dari 1x24 jam.',
+    desc: 'Pindah hosting ke DomaiNesia lewat rekomendasi nativecode.id? Tim DomaiNesia siap membantu migrasi seluruh data Anda tanpa biaya tambahan dalam waktu kurang dari 1x24 jam.',
   },
   {
     icon: (
@@ -192,7 +192,7 @@ export default function WebHostingPage() {
             <div className="text-center mb-10">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Fitur Hosting Terbaik dari Partner Kami</h2>
               <p className="text-gray-500 text-sm max-w-xl mx-auto">
-                Rasakan pengalaman terbaik memiliki website dengan server berbasis Cloud yang andal dan cepat — dikelola oleh DomaiNesia, direkomendasikan oleh pixelcodedigital.id
+                Rasakan pengalaman terbaik memiliki website dengan server berbasis Cloud yang andal dan cepat — dikelola oleh DomaiNesia, direkomendasikan oleh nativecode.id
               </p>
             </div>
             <div className="divide-y divide-gray-100 border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
@@ -320,7 +320,7 @@ export default function WebHostingPage() {
         <section className="py-12 px-4 bg-[#5D9C76]">
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">Bingung Pilih Paket Hosting?</h2>
-            <p className="text-white/80 mb-2">Konsultasikan kebutuhan website Anda dengan tim pixelcodedigital.id — gratis!</p>
+            <p className="text-white/80 mb-2">Konsultasikan kebutuhan website Anda dengan tim nativecode.id — gratis!</p>
             <p className="text-white/60 text-sm mb-6">Kami akan bantu rekomendasikan paket yang paling sesuai sebelum Anda beli di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

@@ -33,7 +33,7 @@ export default function Blog() {
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Blog</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
           <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan{' '}
             <span className="text-[#D17B36] font-semibold">Website Profesional</span>{' '}
@@ -41,7 +41,7 @@ export default function Blog() {
             <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
           <a
-            href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+pixelcodedigital.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+            href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
           >
             <HeadphonesIcon size={18} />

@@ -21,7 +21,7 @@ const solusiItems = [
       </svg>
     ),
     title: 'Hosting Gratis Masa Aktif 1 Bulan',
-    desc: 'Melalui rekomendasi pixelcodedigital.id, transfer hosting Anda ke DomaiNesia dan dapatkan hosting premium gratis selama 1 bulan penuh beserta berbagai fitur terbaik.',
+    desc: 'Melalui rekomendasi nativecode.id, transfer hosting Anda ke DomaiNesia dan dapatkan hosting premium gratis selama 1 bulan penuh beserta berbagai fitur terbaik.',
   },
   {
     icon: (
@@ -51,7 +51,7 @@ const solusiItems = [
       </svg>
     ),
     title: 'Bantuan Tim Support 24/7',
-    desc: 'Jika Anda mengalami kendala saat migrasi, tim support DomaiNesia siap membantu 24/7 via live chat, email, dan tiket bantuan. Tim pixelcodedigital.id juga siap konsultasi sebelum Anda memulai.',
+    desc: 'Jika Anda mengalami kendala saat migrasi, tim support DomaiNesia siap membantu 24/7 via live chat, email, dan tiket bantuan. Tim nativecode.id juga siap konsultasi sebelum Anda memulai.',
   },
 ];
 
@@ -256,7 +256,7 @@ export default function MigrasiPage() {
                     Transfer Web Hosting Gratis DomaiNesia Solusi Terbaik
                   </h2>
                   <p className="text-gray-500 text-sm leading-relaxed mb-5">
-                    Dapatkan web hosting dengan teknologi Cloud Storage berbasis SSD NVMe dan 3X Replikasi Data melalui rekomendasi pixelcodedigital.id. Nikmati berbagai fitur terbaik, gratis transfer, serta gratis masa aktif hosting selama 1 bulan.
+                    Dapatkan web hosting dengan teknologi Cloud Storage berbasis SSD NVMe dan 3X Replikasi Data melalui rekomendasi nativecode.id. Nikmati berbagai fitur terbaik, gratis transfer, serta gratis masa aktif hosting selama 1 bulan.
                   </p>
                   <a
                     href="https://domainesia.com/migrasi/"
@@ -447,7 +447,7 @@ export default function MigrasiPage() {
             <div className="text-center mb-10">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Fitur Hosting Terbaik dari Partner Kami</h2>
               <p className="text-gray-500 text-sm max-w-xl mx-auto">
-                Rasakan pengalaman terbaik memiliki website dengan server berbasis Cloud yang andal dan cepat — dikelola DomaiNesia, direkomendasikan pixelcodedigital.id
+                Rasakan pengalaman terbaik memiliki website dengan server berbasis Cloud yang andal dan cepat — dikelola DomaiNesia, direkomendasikan nativecode.id
               </p>
             </div>
             <div className="divide-y divide-gray-100 border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
@@ -472,7 +472,7 @@ export default function MigrasiPage() {
         <section className="py-12 px-4 bg-[#5D9C76]">
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">Pindah Hosting Sekarang, Gratis 1 Bulan!</h2>
-            <p className="text-white/80 mb-2">Konsultasikan kebutuhan migrasi Anda dengan tim pixelcodedigital.id — gratis!</p>
+            <p className="text-white/80 mb-2">Konsultasikan kebutuhan migrasi Anda dengan tim nativecode.id — gratis!</p>
             <p className="text-white/60 text-sm mb-6">Kami bantu rekomendasikan paket yang paling tepat sebelum Anda transfer di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

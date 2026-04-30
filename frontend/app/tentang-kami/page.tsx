@@ -22,7 +22,7 @@ export default function TentangKami() {
           className="relative flex flex-col items-center justify-center text-center py-16 sm:py-32 px-4 overflow-hidden rounded-b-[2rem] sm:rounded-b-[3rem]"
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
-          <p className="text-sm text-gray-500 mb-2">www.pixelcodedigital.id</p>
+          <p className="text-sm text-gray-500 mb-2">www.nativecode.id</p>
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-4">Tentang Kami</h1>
           <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan{' '}
@@ -31,7 +31,7 @@ export default function TentangKami() {
             <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
           <a
-            href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+pixelcodedigital.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+            href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
           >
             <HeadphonesIcon size={18} />
@@ -59,7 +59,7 @@ export default function TentangKami() {
                 <div className="relative w-full max-w-xs sm:max-w-sm">
                   <Image
                     src="/images/hero/laptop.png"
-                    alt="Tim developer pixelcodedigital.id"
+                    alt="Tim developer nativecode.id"
                     width={480}
                     height={480}
                     className="object-contain drop-shadow-2xl w-full h-auto"
@@ -72,10 +72,10 @@ export default function TentangKami() {
             {/* Right */}
             <div className="flex flex-col justify-center h-full pt-0 lg:pt-24 space-y-6 text-gray-600 leading-relaxed">
               <p className="text-justify text-sm sm:text-base">
-                <strong className="text-gray-900">pixelcodedigital.id</strong> adalah <em>Creative Digital Agency</em> yang berfokus membantu bisnis membangun identitas dan pertumbuhan di dunia digital. Kami hadir sebagai mitra strategis bagi perusahaan yang ingin tampil profesional dan menjangkau pasar lebih luas melalui solusi digital yang efektif. Dengan pengalaman dalam pembuatan website, SEO bergaransi, manajemen iklan digital, dan pengembangan aplikasi, kami menghadirkan layanan yang terintegrasi untuk memperkuat kehadiran online setiap klien.
+                <strong className="text-gray-900">nativecode.id</strong> adalah <em>Creative Digital Agency</em> yang berfokus membantu bisnis membangun identitas dan pertumbuhan di dunia digital. Kami hadir sebagai mitra strategis bagi perusahaan yang ingin tampil profesional dan menjangkau pasar lebih luas melalui solusi digital yang efektif. Dengan pengalaman dalam pembuatan website, SEO bergaransi, manajemen iklan digital, dan pengembangan aplikasi, kami menghadirkan layanan yang terintegrasi untuk memperkuat kehadiran online setiap klien.
               </p>
               <p className="text-justify text-sm sm:text-base">
-                Kami percaya bahwa setiap brand memiliki cerita dan potensi unik yang perlu ditampilkan dengan cara yang menarik dan relevan. Karena itu, setiap proyek di <strong className="text-gray-900">pixelcodedigital.id</strong> dikerjakan dengan pendekatan kreatif yang berpadu dengan strategi berbasis data, agar hasilnya tidak hanya terlihat menarik, tetapi juga memberikan dampak nyata terhadap performa bisnis.
+                Kami percaya bahwa setiap brand memiliki cerita dan potensi unik yang perlu ditampilkan dengan cara yang menarik dan relevan. Karena itu, setiap proyek di <strong className="text-gray-900">nativecode.id</strong> dikerjakan dengan pendekatan kreatif yang berpadu dengan strategi berbasis data, agar hasilnya tidak hanya terlihat menarik, tetapi juga memberikan dampak nyata terhadap performa bisnis.
               </p>
             </div>
 
@@ -91,14 +91,14 @@ export default function TentangKami() {
             <div className="flex items-center justify-center p-8 lg:p-12">
               <img
                 src="/images/hero/oren.png"
-                alt="pixelcodedigital.id commitment"
+                alt="nativecode.id commitment"
                 className="w-full max-w-xs sm:max-w-sm object-contain"
                 style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.10))' }}
               />
             </div>
             <div className="p-6 sm:p-8 lg:p-12 lg:pr-16">
               <p className="text-gray-700 leading-relaxed text-sm sm:text-base text-justify">
-                Dengan tim profesional yang berpengalaman dan responsif, kami berkomitmen memberikan pelayanan terbaik, mulai dari perencanaan, implementasi, hingga evaluasi hasil. pixelcodedigital.id bukan sekadar penyedia jasa digital, tetapi mitra yang tumbuh bersama klien menuju kesuksesan jangka panjang di dunia online yang terus berkembang.
+                Dengan tim profesional yang berpengalaman dan responsif, kami berkomitmen memberikan pelayanan terbaik, mulai dari perencanaan, implementasi, hingga evaluasi hasil. nativecode.id bukan sekadar penyedia jasa digital, tetapi mitra yang tumbuh bersama klien menuju kesuksesan jangka panjang di dunia online yang terus berkembang.
               </p>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function TentangKami() {
           <div className="flex items-center gap-2 mb-4">
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold mb-1">
-            <span className="text-[#D17B36]">pixelcodedigital</span>
+            <span className="text-[#D17B36]">nativecode</span>
             <span className="text-[#5D9C76]">.id</span>
           </h2>
           <p className="text-gray-700 font-semibold mb-8 sm:mb-12 text-sm sm:text-base">
@@ -129,7 +129,7 @@ export default function TentangKami() {
                   </svg>
                 ),
                 title: 'Pengalaman & Kredibilitas',
-                desc: 'Dengan pengalaman bertahun-tahun dan lebih dari 6.000 website yang telah kami bangun, pixelcodedigital.id menjadi mitra terpercaya bagi banyak bisnis. Kami selalu fokus memberikan hasil terbaik dan memuaskan.',
+                desc: 'Dengan pengalaman bertahun-tahun dan lebih dari 6.000 website yang telah kami bangun, nativecode.id menjadi mitra terpercaya bagi banyak bisnis. Kami selalu fokus memberikan hasil terbaik dan memuaskan.',
               },
               {
                 icon: (

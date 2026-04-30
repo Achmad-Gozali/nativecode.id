@@ -173,7 +173,7 @@ export default function PembuatanAplikasi() {
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Jasa Pembuatan Aplikasi</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
           <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan{' '}
             <span className="text-[#D17B36] font-semibold">Website Profesional</span>{' '}
@@ -181,7 +181,7 @@ export default function PembuatanAplikasi() {
             <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
           <a
-            href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+            href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
           >
             <HeadphonesIcon size={18} />
@@ -196,7 +196,7 @@ export default function PembuatanAplikasi() {
               <div className="flex items-center gap-2 mb-4">
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-1">
-                <span className="text-[#D17B36]">pixelcodedigital</span>
+                <span className="text-[#D17B36]">nativecode</span>
                 <span className="text-[#5D9C76]">.id</span>
               </h2>
               <p className="font-semibold text-gray-800 text-base sm:text-lg mb-4">
@@ -210,7 +210,7 @@ export default function PembuatanAplikasi() {
               </p>
               <div className="flex gap-3 flex-wrap">
                 <a
-                  href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+                  href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base"
                 >
                   <HeadphonesIcon size={16} />
@@ -297,7 +297,7 @@ export default function PembuatanAplikasi() {
 
                       {/* Book Now */}
                       <a
-                        href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+                        href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
                         className={`w-full py-2 sm:py-2.5 rounded-full border font-semibold text-sm mb-4 flex items-center justify-center gap-2 transition-colors ${p.bestSeller ? 'border-[#5D9C76] text-[#5D9C76] hover:bg-[#5D9C76] hover:text-white' : 'border-[#D17B36] text-[#D17B36] hover:bg-[#D17B36] hover:text-white'}`}
                       >
                         {p.nama === 'Enterprise' ? 'Konsultasi Gratis' : 'Book Now'}
@@ -359,12 +359,12 @@ export default function PembuatanAplikasi() {
               <div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white mb-3">Tidak yakin paket mana yang cocok?</h3>
                 <p className="text-white opacity-90 text-sm sm:text-base leading-relaxed">
-                  Konsultasikan kebutuhan aplikasi Anda gratis bersama tim pixelcodedigital.id. Kami akan bantu pilihkan solusi terbaik sesuai budget dan target bisnis Anda.
+                  Konsultasikan kebutuhan aplikasi Anda gratis bersama tim nativecode.id. Kami akan bantu pilihkan solusi terbaik sesuai budget dan target bisnis Anda.
                 </p>
               </div>
               <div className="flex lg:justify-end">
                 <a
-                  href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+                  href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base"
                 >
                   <HeadphonesIcon size={18} />

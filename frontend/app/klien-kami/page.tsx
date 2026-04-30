@@ -26,7 +26,7 @@ export default function KlienKami() {
 
   const handleKategori = (kat: string) => { setAktif(kat); setTampil(6); };
 
-  const whatsappLink = `https://wa.me/6282249244647?text=Halo%20pixelcodedigital.id%2C%20saya%20tertarik%20dengan%20layanan%20pembuatan%20website%20profesional%20dan%20SEO%20bergaransi.%20Mohon%20informasi%20lebih%20lanjut.`;
+  const whatsappLink = `https://wa.me/6282249244647?text=Halo%20nativecode.id%2C%20saya%20tertarik%20dengan%20layanan%20pembuatan%20website%20profesional%20dan%20SEO%20bergaransi.%20Mohon%20informasi%20lebih%20lanjut.`;
 
   return (
     <>
@@ -39,7 +39,7 @@ export default function KlienKami() {
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Klien Kami</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
           <p className="text-sm sm:text-lg text-gray-600 mb-8">
             Jasa Pembuatan <span className="text-[#D17B36] font-semibold">Website Profesional</span> dan <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
@@ -53,10 +53,10 @@ export default function KlienKami() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20 grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-10 items-start">
           <div className="lg:col-span-1">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">
-              <span className="text-[#D17B36]">pixelcodedigital</span><span className="text-[#5D9C76]">.id</span>
+              <span className="text-[#D17B36]">nativecode</span><span className="text-[#5D9C76]">.id</span>
             </h2>
             <p className="text-gray-600 leading-relaxed text-sm">
-              pixelcodedigital.id telah membangun lebih dari 300 website untuk berbagai jenis bisnis, dari usaha kecil hingga perusahaan besar. Setiap proyek menjadi bukti komitmen kami terhadap kualitas, inovasi, dan kepuasan pelanggan.
+              nativecode.id telah membangun lebih dari 300 website untuk berbagai jenis bisnis, dari usaha kecil hingga perusahaan besar. Setiap proyek menjadi bukti komitmen kami terhadap kualitas, inovasi, dan kepuasan pelanggan.
             </p>
           </div>
           <div className="lg:col-span-2 grid grid-cols-2 gap-4 sm:gap-6">
@@ -66,7 +66,7 @@ export default function KlienKami() {
             </div>
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 sm:p-8 flex flex-col justify-center">
               <p className="text-3xl sm:text-5xl font-bold text-gray-900 mb-2">500+</p>
-              <p className="text-gray-500 text-xs sm:text-sm">Klien menggunakan layanan pixelcodedigital.id</p>
+              <p className="text-gray-500 text-xs sm:text-sm">Klien menggunakan layanan nativecode.id</p>
             </div>
           </div>
         </section>

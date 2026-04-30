@@ -73,7 +73,7 @@ export default function Navigasi() {
             {/* Logo */}
             <Link href="/" className="flex-shrink-0 flex items-center cursor-pointer">
               <span className="font-bold text-xl text-[#5D9C76]">
-                pixelcodedigital<span className="text-[#D17B36]">.id</span>
+                nativecode<span className="text-[#D17B36]">.id</span>
               </span>
             </Link>
 

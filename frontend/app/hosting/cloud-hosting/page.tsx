@@ -34,7 +34,7 @@ const fiturUnggulan = [
       </svg>
     ),
     title: 'Managed',
-    desc: 'Tim profesional DomaiNesia siap membantu mengelola server Anda — tidak perlu khawatir soal pemeliharaan teknis. Kami di pixelcodedigital.id siap membantu konsultasi sebelum Anda memulai.',
+    desc: 'Tim profesional DomaiNesia siap membantu mengelola server Anda — tidak perlu khawatir soal pemeliharaan teknis. Kami di nativecode.id siap membantu konsultasi sebelum Anda memulai.',
   },
   {
     icon: (
@@ -118,7 +118,7 @@ const fiturUnggulan = [
   },
 ];
 
-const WA_URL = 'https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+hosting.+Mohon+bantuannya+%F0%9F%99%8F';
+const WA_URL = 'https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+hosting.+Mohon+bantuannya+%F0%9F%99%8F';
 
 function formatHarga(n: number) {
   return n.toLocaleString('id-ID');
@@ -150,7 +150,7 @@ function AffiliateBanner() {
           />
         </a>
         <p className="text-center text-[10px] text-gray-300 mt-3">
-          pixelcodedigital.id adalah mitra afiliasi resmi DomaiNesia
+          nativecode.id adalah mitra afiliasi resmi DomaiNesia
         </p>
       </div>
     </section>
@@ -175,7 +175,7 @@ export default function CloudHostingPage() {
                 Cloud Hosting<br />Performa Tinggi
               </h1>
               <p className="text-white/80 text-base sm:text-lg mb-2">
-                pixelcodedigital.id bekerja sama dengan DomaiNesia untuk menghadirkan Cloud Hosting dengan dedicated resource terbaik.
+                nativecode.id bekerja sama dengan DomaiNesia untuk menghadirkan Cloud Hosting dengan dedicated resource terbaik.
               </p>
               <p className="text-white/60 text-sm mb-8">
                 Cocok untuk E-Learning, CRM, ERP, SMM Panel, dan aplikasi skala enterprise — konsultasikan kebutuhan Anda dengan kami dulu!
@@ -235,7 +235,7 @@ export default function CloudHostingPage() {
             <div className="text-center mb-10">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Kelebihan Cloud Hosting Partner Kami</h2>
               <p className="text-gray-500 text-sm max-w-xl mx-auto">
-                Layanan cloud hosting murah dengan performa dan keamanan terbaik — dikelola DomaiNesia, direkomendasikan pixelcodedigital.id
+                Layanan cloud hosting murah dengan performa dan keamanan terbaik — dikelola DomaiNesia, direkomendasikan nativecode.id
               </p>
             </div>
             <div className="divide-y divide-gray-100 border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
@@ -338,7 +338,7 @@ export default function CloudHostingPage() {
         <section className="py-12 px-4 bg-[#1a73c5]">
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">Bingung Pilih Paket Cloud Hosting?</h2>
-            <p className="text-white/80 mb-2">Konsultasikan kebutuhan website Anda dengan tim pixelcodedigital.id — gratis!</p>
+            <p className="text-white/80 mb-2">Konsultasikan kebutuhan website Anda dengan tim nativecode.id — gratis!</p>
             <p className="text-white/60 text-sm mb-6">Kami bantu rekomendasikan paket yang paling tepat sebelum Anda beli di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               

@@ -45,7 +45,7 @@ const paket: Paket[] = [
 
 const faq = [
   {
-    q: 'Apa saja layanan yang termasuk dalam Creative Digital Agency pixelcodedigital.id?',
+    q: 'Apa saja layanan yang termasuk dalam Creative Digital Agency nativecode.id?',
     a: 'Layanan kami mencakup pengelolaan sosial media (IG, FB, YouTube), pembuatan followers, pembuatan konten (banner, logo, kartu nama, video promosi), company profile PDF, pembuatan akun bisnis, proposal bisnis, hingga sertifikasi iklan Google. Semua dirancang untuk membantu bisnis Anda tampil lebih profesional dan menjangkau lebih banyak pelanggan.',
   },
   {
@@ -101,13 +101,13 @@ export default function CreativeDigitalAgency() {
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Creative Digital Agency</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
           <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan{' '}
             <span className="text-[#D17B36] font-semibold">Website Profesional</span>{' '}
             dan <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
-          <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Creative+Digital+Agency.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
+          <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Creative+Digital+Agency.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
             <HeadphonesIcon size={18} />Konsultasi
           </a>
         </section>
@@ -119,13 +119,13 @@ export default function CreativeDigitalAgency() {
               <div className="flex items-center gap-2 mb-4">
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-1">
-                <span className="text-[#D17B36]">pixelcodedigital</span><span className="text-[#5D9C76]">.id</span>
+                <span className="text-[#D17B36]">nativecode</span><span className="text-[#5D9C76]">.id</span>
               </h2>
               <p className="font-semibold text-gray-800 text-base sm:text-lg mb-4">Solusi Desain & Layanan Kreatif untuk Meningkatkan Daya Tarik Bisnis Anda!</p>
               <p className="text-gray-600 leading-relaxed mb-8 text-sm sm:text-base">
-                Wujudkan ide besar Anda bersama pixelcodedigital.id, mitra terpercaya dalam menghadirkan desain grafis memukau dan strategi marketing digital yang berdampak. Kami membantu bisnis Anda tampil menonjol dengan konten visual yang kuat, pesan yang tepat sasaran, dan strategi kreatif yang mendorong pertumbuhan nyata.
+                Wujudkan ide besar Anda bersama nativecode.id, mitra terpercaya dalam menghadirkan desain grafis memukau dan strategi marketing digital yang berdampak. Kami membantu bisnis Anda tampil menonjol dengan konten visual yang kuat, pesan yang tepat sasaran, dan strategi kreatif yang mendorong pertumbuhan nyata.
               </p>
-              <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Creative+Digital+Agency.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base">
+              <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Creative+Digital+Agency.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base">
                 <HeadphonesIcon size={16} />Konsultasi
               </a>
             </div>
@@ -216,7 +216,7 @@ export default function CreativeDigitalAgency() {
 
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm px-5 sm:px-6 py-4">
             <p className="flex-1 text-sm text-gray-500 text-center sm:text-left">Masih ada pertanyaan? Konsultasikan langsung dengan tim kami.</p>
-            <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+Creative+Digital+Agency.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-[#c26f2f] transition-colors whitespace-nowrap">
+            <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Creative+Digital+Agency.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-[#c26f2f] transition-colors whitespace-nowrap">
               <HeadphonesIcon size={14} />Tanya Sekarang
             </a>
           </div>

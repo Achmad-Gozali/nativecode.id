@@ -13,14 +13,14 @@ const HeadphonesIcon = ({ size = 18 }: { size?: number }) => (
 
 const paketSEO = [
   {
-    nama: 'SEO Bergaransi', sub: 'Website dari pixelcodedigital.id', harga: '600K', satuan: '/Bulan', warna: 'from-[#e8f5e9] to-white',
-    fitur: ['SEO website bahasa indonesia yang dibuat di PT. pixelcodedigital.id Rp. 600.000,- per bulan (Kontrak SEO Minimal 1 Tahun)', 'SEO website bahasa inggris yang dibuat di PT. pixelcodedigital.id Rp. 1.200.000,- per bulan (kontrak SEO minimal 1 tahun)'],
-    detail: { deskripsi: 'SEO pixelcodedigital.id, menampilkan keyword / kata kunci pencarian segera tampil di Google & sudah terbukti efektif demi kesuksesan bisnis klien.', poin: ['Membangun website dengan 5 macam keyword / kata kunci sesuai target pasar.', 'SEO Bergaransi dibayar 600rb/bln.', 'Jika SEO sudah muncul di Google, dan klien tidak membayar biaya SEO, maka sebagai kompensasi, website akan kami nonaktifkan sementara, dan akan bisa tayang kembali jika sudah melakukan pembayaran SEO sesuai kesepakatan bersama.', 'SEO bergaransi, agar tetap stabil di pencarian Google.', 'Mendapatkan kata kunci bonus.', 'Mendapatkan laporan resmi / tool premium (premium Rank Tracker untuk traffic SEO peringkat website Klien SEO Kami). Rank Tracker adalah tool SEO Online berbayar untuk Tautan, Kata Kunci, yang bersih, valid dan mudah digunakan serta cepat dan akurat.'], isFitur: false },
+    nama: 'SEO Bergaransi', sub: 'Website dari nativecode.id', harga: '600K', satuan: '/Bulan', warna: 'from-[#e8f5e9] to-white',
+    fitur: ['SEO website bahasa indonesia yang dibuat di PT. nativecode.id Rp. 600.000,- per bulan (Kontrak SEO Minimal 1 Tahun)', 'SEO website bahasa inggris yang dibuat di PT. nativecode.id Rp. 1.200.000,- per bulan (kontrak SEO minimal 1 tahun)'],
+    detail: { deskripsi: 'SEO nativecode.id, menampilkan keyword / kata kunci pencarian segera tampil di Google & sudah terbukti efektif demi kesuksesan bisnis klien.', poin: ['Membangun website dengan 5 macam keyword / kata kunci sesuai target pasar.', 'SEO Bergaransi dibayar 600rb/bln.', 'Jika SEO sudah muncul di Google, dan klien tidak membayar biaya SEO, maka sebagai kompensasi, website akan kami nonaktifkan sementara, dan akan bisa tayang kembali jika sudah melakukan pembayaran SEO sesuai kesepakatan bersama.', 'SEO bergaransi, agar tetap stabil di pencarian Google.', 'Mendapatkan kata kunci bonus.', 'Mendapatkan laporan resmi / tool premium (premium Rank Tracker untuk traffic SEO peringkat website Klien SEO Kami). Rank Tracker adalah tool SEO Online berbayar untuk Tautan, Kata Kunci, yang bersih, valid dan mudah digunakan serta cepat dan akurat.'], isFitur: false },
   },
   {
-    nama: 'SEO', sub: 'Website Luar/Bukan Website pixelcodedigital.id', harga: '950K', satuan: '/Bulan', warna: 'from-[#fffbe6] to-white',
+    nama: 'SEO', sub: 'Website Luar/Bukan Website nativecode.id', harga: '950K', satuan: '/Bulan', warna: 'from-[#fffbe6] to-white',
     fitur: ['SEO Website luar bahasa indonesia Rp. 950.000,- per bulan', 'SEO Website luar bahasa inggris Rp. 2.200.000,- per bulan'],
-    detail: { deskripsi: 'SEO pixelcodedigital.id, menampilkan keyword / kata kunci pencarian segera tampil di Google & sudah terbukti efektif demi kesuksesan bisnis klien.', poin: ['Membangun website dengan 5 macam keyword / kata kunci sesuai target pasar.', 'SEO dibayar 950rb/bln.', 'Jika SEO sudah muncul di Google, dan klien tidak membayar biaya SEO, maka sebagai kompensasi, website akan kami nonaktifkan sementara, dan akan bisa tayang kembali jika sudah melakukan pembayaran SEO sesuai kesepakatan bersama.', 'SEO agar tetap stabil di pencarian Google.', 'Mendapatkan kata kunci bonus.', 'Mendapatkan laporan resmi / tool premium (premium Rank Tracker untuk traffic SEO peringkat website Klien SEO Kami). Rank Tracker adalah tool SEO Online berbayar untuk Tautan, Kata Kunci, yang bersih, valid dan mudah digunakan serta cepat dan akurat.'], isFitur: false },
+    detail: { deskripsi: 'SEO nativecode.id, menampilkan keyword / kata kunci pencarian segera tampil di Google & sudah terbukti efektif demi kesuksesan bisnis klien.', poin: ['Membangun website dengan 5 macam keyword / kata kunci sesuai target pasar.', 'SEO dibayar 950rb/bln.', 'Jika SEO sudah muncul di Google, dan klien tidak membayar biaya SEO, maka sebagai kompensasi, website akan kami nonaktifkan sementara, dan akan bisa tayang kembali jika sudah melakukan pembayaran SEO sesuai kesepakatan bersama.', 'SEO agar tetap stabil di pencarian Google.', 'Mendapatkan kata kunci bonus.', 'Mendapatkan laporan resmi / tool premium (premium Rank Tracker untuk traffic SEO peringkat website Klien SEO Kami). Rank Tracker adalah tool SEO Online berbayar untuk Tautan, Kata Kunci, yang bersih, valid dan mudah digunakan serta cepat dan akurat.'], isFitur: false },
   },
   {
     nama: 'Beli Artikel', sub: 'Original SEO Friendly', harga: '300K', satuan: '', warna: 'from-[#fffbe6] to-white', italic: true,
@@ -40,7 +40,7 @@ const faq = [
   },
   {
     q: 'Apa bedanya paket SEO Bergaransi dengan paket SEO biasa?',
-    a: 'Paket SEO Bergaransi khusus untuk website yang dibuat melalui pixelcodedigital.id, dengan harga lebih terjangkau karena kami sudah familiar dengan struktur websitenya. Paket SEO biasa (950K) berlaku untuk website luar atau website yang tidak dibuat oleh pixelcodedigital.id. Keduanya mendapatkan layanan optimasi yang sama berkualitasnya.',
+    a: 'Paket SEO Bergaransi khusus untuk website yang dibuat melalui nativecode.id, dengan harga lebih terjangkau karena kami sudah familiar dengan struktur websitenya. Paket SEO biasa (950K) berlaku untuk website luar atau website yang tidak dibuat oleh nativecode.id. Keduanya mendapatkan layanan optimasi yang sama berkualitasnya.',
   },
   {
     q: 'Apa yang terjadi jika saya berhenti membayar di tengah kontrak?',
@@ -87,11 +87,11 @@ export default function SEOBergaransi() {
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
           <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Optimasi SEO Bergaransi</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
           <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan <span className="text-[#D17B36] font-semibold">Website Profesional</span> dan <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
-          <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+SEO+Bergaransi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
+          <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+SEO+Bergaransi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
             <HeadphonesIcon size={18} />Konsultasi
           </a>
         </section>
@@ -103,14 +103,14 @@ export default function SEOBergaransi() {
               <div className="flex items-center gap-2 mb-4">
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold mb-1">
-                <span className="text-[#D17B36]">pixelcodedigital</span><span className="text-[#5D9C76]">.id</span>
+                <span className="text-[#D17B36]">nativecode</span><span className="text-[#5D9C76]">.id</span>
               </h2>
               <p className="font-semibold text-gray-800 text-base sm:text-lg mb-4">Tingkatkan Peringkat Website Anda dan Raih Lebih Banyak Pelanggan!</p>
               <p className="text-gray-600 leading-relaxed mb-8 text-sm sm:text-base">
-                Di pixelcodedigital.id, kami membantu bisnis Anda tampil di halaman teratas Google dengan strategi SEO yang terbukti efektif. Dengan teknik terbaru dan optimasi menyeluruh, website Anda akan lebih mudah ditemukan, dikunjungi, dan menghasilkan konversi nyata.
+                Di nativecode.id, kami membantu bisnis Anda tampil di halaman teratas Google dengan strategi SEO yang terbukti efektif. Dengan teknik terbaru dan optimasi menyeluruh, website Anda akan lebih mudah ditemukan, dikunjungi, dan menghasilkan konversi nyata.
               </p>
               <div className="flex gap-3 flex-wrap">
-                <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+SEO+Bergaransi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base">
+                <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+SEO+Bergaransi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors text-sm sm:text-base">
                   <HeadphonesIcon size={16} />Konsultasi
                 </a>
                 <a href="#paket" className="inline-flex items-center gap-2 border border-[#5D9C76] text-[#5D9C76] px-5 sm:px-6 py-2.5 sm:py-3 rounded-full font-semibold hover:bg-[#5D9C76] hover:text-white transition-colors text-sm sm:text-base">
@@ -120,7 +120,7 @@ export default function SEOBergaransi() {
               </div>
             </div>
             <div className="hidden lg:flex items-center justify-center">
-              <img src="/images/hero/tangan.png" alt="SEO Bergaransi pixelcodedigital.id" className="w-full max-w-sm lg:max-w-lg object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
+              <img src="/images/hero/tangan.png" alt="SEO Bergaransi nativecode.id" className="w-full max-w-sm lg:max-w-lg object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
             </div>
           </div>
         </section>
@@ -130,7 +130,7 @@ export default function SEOBergaransi() {
           <div className="max-w-7xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Paket SEO Bergaransi</h2>
             <p className="text-center text-gray-600 mb-8 sm:mb-12 text-sm sm:text-base px-2">
-              Tingkatkan peringkat bisnis Anda dan <strong>muncul di halaman pertama Google</strong> bersama pixelcodedigital.id
+              Tingkatkan peringkat bisnis Anda dan <strong>muncul di halaman pertama Google</strong> bersama nativecode.id
             </p>
             <div className="bg-gradient-to-br from-[#e8f5e9] to-[#fff8f0] rounded-3xl p-4 sm:p-8">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 items-start">
@@ -228,7 +228,7 @@ export default function SEOBergaransi() {
           {/* CTA bawah FAQ */}
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm px-5 sm:px-6 py-4">
             <p className="flex-1 text-sm text-gray-500 text-center sm:text-left">Masih ada pertanyaan tentang SEO? Konsultasikan langsung dengan tim kami.</p>
-            <a href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+SEO+Bergaransi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-[#c26f2f] transition-colors whitespace-nowrap">
+            <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+SEO+Bergaransi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-[#c26f2f] transition-colors whitespace-nowrap">
               <HeadphonesIcon size={14} />Tanya Sekarang
             </a>
           </div>

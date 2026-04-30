@@ -59,7 +59,7 @@ const fiturTerbaik = [
       </svg>
     ),
     title: 'Instant Deploy',
-    desc: 'Setelah hosting WordPress aktif melalui rekomendasi pixelcodedigital.id, website Anda langsung aktif tanpa repot melakukan instalasi — langsung bisa digunakan setelah melunasi tagihan.',
+    desc: 'Setelah hosting WordPress aktif melalui rekomendasi nativecode.id, website Anda langsung aktif tanpa repot melakukan instalasi — langsung bisa digunakan setelah melunasi tagihan.',
   },
   {
     icon: (
@@ -170,7 +170,7 @@ const fiturTerbaik = [
       </svg>
     ),
     title: 'Gratis Domain, Gratis SSL',
-    desc: 'Setiap pembelian hosting WordPress melalui rekomendasi pixelcodedigital.id di DomaiNesia, Anda berhak mendapat domain gratis dan SSL gratis — tidak perlu mengeluarkan biaya lebih.',
+    desc: 'Setiap pembelian hosting WordPress melalui rekomendasi nativecode.id di DomaiNesia, Anda berhak mendapat domain gratis dan SSL gratis — tidak perlu mengeluarkan biaya lebih.',
   },
   {
     icon: (
@@ -215,7 +215,7 @@ function AffiliateBanner() {
           />
         </a>
         <p className="text-center text-[10px] text-gray-300 mt-3">
-          pixelcodedigital.id adalah mitra afiliasi resmi DomaiNesia
+          nativecode.id adalah mitra afiliasi resmi DomaiNesia
         </p>
       </div>
     </section>
@@ -390,7 +390,7 @@ export default function HostingWordPressPage() {
             <div className="text-center mb-10">
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Fitur Terbaik Hosting WordPress dari Partner Kami</h2>
               <p className="text-gray-500 text-sm max-w-xl mx-auto">
-                Membuat website WordPress semakin mudah, cepat, dan aman — dikelola DomaiNesia, direkomendasikan pixelcodedigital.id
+                Membuat website WordPress semakin mudah, cepat, dan aman — dikelola DomaiNesia, direkomendasikan nativecode.id
               </p>
             </div>
             <div className="divide-y divide-gray-100 border border-gray-100 rounded-2xl overflow-hidden shadow-sm">
@@ -415,7 +415,7 @@ export default function HostingWordPressPage() {
         <section className="py-12 px-4 bg-[#1a6fc4]">
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">Bingung Pilih Paket WordPress Hosting?</h2>
-            <p className="text-white/80 mb-2">Konsultasikan kebutuhan website WordPress Anda dengan tim pixelcodedigital.id — gratis!</p>
+            <p className="text-white/80 mb-2">Konsultasikan kebutuhan website WordPress Anda dengan tim nativecode.id — gratis!</p>
             <p className="text-white/60 text-sm mb-6">Kami bantu rekomendasikan paket yang paling tepat sebelum Anda beli di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

@@ -22,7 +22,7 @@ export default function Kontak() {
 
   // Nomor WhatsApp baru
   const whatsappNumber = '6282249244647';
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Halo%20pixelcodedigital.id%2C%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20website%20profesional%20dan%20SEO%20bergaransi.`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=Halo%20nativecode.id%2C%20saya%20ingin%20konsultasi%20mengenai%20pembuatan%20website%20profesional%20dan%20SEO%20bergaransi.`;
 
   return (
     <>
@@ -37,7 +37,7 @@ export default function Kontak() {
           }}
         >
           <h1 className="text-5xl font-bold text-gray-900 mb-3">Kontak</h1>
-          <p className="text-gray-500 mb-3">www.pixelcodedigital.id</p>
+          <p className="text-gray-500 mb-3">www.nativecode.id</p>
           <p className="text-lg text-gray-600 mb-8">
             Jasa Pembuatan{' '}
             <span className="text-[#D17B36] font-semibold">Website Profesional</span>{' '}
@@ -64,7 +64,7 @@ export default function Kontak() {
               <h2 className="text-5xl font-bold text-gray-900 leading-tight mb-6">
                 Let's talk with<br />
                 the{' '}
-                <span className="text-[#D17B36]">pixelcodedigital</span>
+                <span className="text-[#D17B36]">nativecode</span>
                 <span className="text-[#5D9C76]">.id</span>
                 <br />
                 team.
@@ -72,7 +72,7 @@ export default function Kontak() {
             </div>
             <div className="pt-2">
               <p className="text-gray-600 leading-relaxed">
-                Tim <strong className="text-[#5D9C76]">pixelcodedigital.id</strong> siap membantu Anda mewujudkan strategi digital terbaik untuk bisnis Anda — mulai dari pembuatan website, optimasi SEO, iklan digital, maupun pengembangan aplikasi.
+                Tim <strong className="text-[#5D9C76]">nativecode.id</strong> siap membantu Anda mewujudkan strategi digital terbaik untuk bisnis Anda — mulai dari pembuatan website, optimasi SEO, iklan digital, maupun pengembangan aplikasi.
               </p>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function Kontak() {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Email :</p>
-                    <p className="text-gray-600">cs@pixelcodedigital.id</p>
+                    <p className="text-gray-600">cs@nativecode.id</p>
                   </div>
                 </div>
               </div>

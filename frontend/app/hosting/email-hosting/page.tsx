@@ -7,7 +7,7 @@ import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
 import { paketEmailHosting, fiturEmailHosting } from '@/data/email-hosting';
 
-const WA_URL = 'https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+email+hosting.+Mohon+bantuannya+%F0%9F%99%8F';
+const WA_URL = 'https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+email+hosting.+Mohon+bantuannya+%F0%9F%99%8F';
 
 const alasanBeli = [
   {
@@ -212,13 +212,13 @@ export default function EmailHostingPage() {
                 <div className="bg-white/20 rounded-lg px-3 py-1.5">
                   <span className="text-white font-bold text-sm">Mailspace</span>
                 </div>
-                <span className="text-white/60 text-xs">powered by DomaiNesia × pixelcodedigital.id</span>
+                <span className="text-white/60 text-xs">powered by DomaiNesia × nativecode.id</span>
               </div>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 leading-tight">
                 Email Hosting Indonesia<br />Profesional &amp; Terpercaya
               </h1>
               <p className="text-white/80 text-base sm:text-lg max-w-lg mb-8 leading-relaxed">
-                Saatnya menggunakan alamat email profesional dengan domain sendiri untuk kebutuhan bisnis dan perusahaan Anda. Melalui kerjasama pixelcodedigital.id dengan DomaiNesia, bisnis Anda semakin terpercaya.
+                Saatnya menggunakan alamat email profesional dengan domain sendiri untuk kebutuhan bisnis dan perusahaan Anda. Melalui kerjasama nativecode.id dengan DomaiNesia, bisnis Anda semakin terpercaya.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
@@ -455,7 +455,7 @@ export default function EmailHostingPage() {
         <section className="py-12 px-4 bg-gradient-to-r from-[#1a7fc1] to-[#2196d3]">
           <div className="max-w-3xl mx-auto text-center text-white">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">Butuh Solusi Email Hosting dengan Kapasitas Lebih Besar?</h2>
-            <p className="text-white/80 mb-2">Hubungi tim pixelcodedigital.id untuk mendapatkan penawaran terbaik dan solusi yang sesuai dengan kebutuhan bisnis Anda.</p>
+            <p className="text-white/80 mb-2">Hubungi tim nativecode.id untuk mendapatkan penawaran terbaik dan solusi yang sesuai dengan kebutuhan bisnis Anda.</p>
             <p className="text-white/60 text-sm mb-6">Kami bantu rekomendasikan paket yang paling tepat sebelum Anda beli di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

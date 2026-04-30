@@ -229,16 +229,16 @@ const paketDetail: Record<string, { deskDetail: string; fiturDetail: string[] }>
 };
 
 const paketList = [
-  { nama: 'Silver', medal: '/images/paket/silver.png', harga: '700K', perp: '500ribu/tahun', best: false, fitur: ['4 Menu','FREE Domain Web.id','Hosting 500 MB (30 foto kuota kerja)','Include Listing di pixelcodedigital.id'] },
-  { nama: 'Gold', medal: '/images/paket/gold.png', harga: '1.6 Jt', perp: '600ribu/tahun', best: true, fitur: ['8 Menu','FREE Domain .com','Hosting 3 GB (70 foto kuota kerja)','Include Listing di pixelcodedigital.id'] },
-  { nama: 'Diamond', medal: '/images/paket/diamond.png', harga: '2 Jt', perp: '1 Juta/tahun', best: false, fitur: ['10 Menu','FREE Domain .com/.co.id','Hosting 3 GB (90 foto kuota kerja)','Include Listing di pixelcodedigital.id'] },
-  { nama: 'Platinum', medal: '/images/paket/platinum.png', harga: '3 Jt', perp: '1,5 Juta/tahun', best: false, fitur: ['15-20 Menu','FREE Domain .com, .co.id, .co, .id, .asia, .xyz','Hosting 5 GB (120 foto kuota kerja)','Include Listing di pixelcodedigital.id'] },
+  { nama: 'Silver', medal: '/images/paket/silver.png', harga: '700K', perp: '500ribu/tahun', best: false, fitur: ['4 Menu','FREE Domain Web.id','Hosting 500 MB (30 foto kuota kerja)','Include Listing di nativecode.id'] },
+  { nama: 'Gold', medal: '/images/paket/gold.png', harga: '1.6 Jt', perp: '600ribu/tahun', best: true, fitur: ['8 Menu','FREE Domain .com','Hosting 3 GB (70 foto kuota kerja)','Include Listing di nativecode.id'] },
+  { nama: 'Diamond', medal: '/images/paket/diamond.png', harga: '2 Jt', perp: '1 Juta/tahun', best: false, fitur: ['10 Menu','FREE Domain .com/.co.id','Hosting 3 GB (90 foto kuota kerja)','Include Listing di nativecode.id'] },
+  { nama: 'Platinum', medal: '/images/paket/platinum.png', harga: '3 Jt', perp: '1,5 Juta/tahun', best: false, fitur: ['15-20 Menu','FREE Domain .com, .co.id, .co, .id, .asia, .xyz','Hosting 5 GB (120 foto kuota kerja)','Include Listing di nativecode.id'] },
 ];
 
 const featureList = [
   { title: 'Free Logo & Banner', desc: 'Desain logo dan banner kreatif yang memperkuat identitas bisnis Anda. Termasuk revisi hingga puas.', icon: <IconLogoDesign /> },
   { title: 'Free 3 Artikel', desc: 'Konten original & SEO-friendly oleh tim ahli untuk mendukung peringkat website Anda. 3 artikel 500-700 kata siap publish.', icon: <IconArticle /> },
-  { title: 'Include Listing di pixelcodedigital.id', desc: 'Paket layanan pixelcodedigital.id include listing di pixelcodedigital.id tanpa biaya tambahan. Visibilitas ke ribuan pengunjung.', icon: <IconListing /> },
+  { title: 'Include Listing di nativecode.id', desc: 'Paket layanan nativecode.id include listing di nativecode.id tanpa biaya tambahan. Visibilitas ke ribuan pengunjung.', icon: <IconListing /> },
 ];
 
 export default function Home() {
@@ -272,7 +272,7 @@ export default function Home() {
               </p>
               <div className="hero-btns flex flex-wrap gap-3">
                 <a
-                  href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+pixelcodedigital.id.+Mohon+bantuannya+%F0%9F%99%8F"
+                  href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F"
                   target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-white px-7 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity text-sm"
                   style={{ background: '#3d8b5e' }}
@@ -293,7 +293,7 @@ export default function Home() {
             <div className="hero-img flex-1 flex items-center justify-center lg:justify-end">
               <img
                 src="/images/hero/hero-beranda.png"
-                alt="pixelcodedigital.id tampil di berbagai device"
+                alt="nativecode.id tampil di berbagai device"
                 className="w-full max-w-sm sm:max-w-md lg:max-w-xl object-contain"
                 style={{ mixBlendMode: 'multiply' }}
               />
@@ -303,7 +303,7 @@ export default function Home() {
 
         {/* Hero Stats */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
-          <p className="fade-up text-center text-gray-500 text-sm mb-2">Selamat Datang di pixelcodedigital.id</p>
+          <p className="fade-up text-center text-gray-500 text-sm mb-2">Selamat Datang di nativecode.id</p>
           <h2 className="fade-up stagger-1 text-2xl sm:text-4xl font-bold text-center text-gray-900 mb-10 sm:mb-14 px-2">
             Jasa Pembuatan <span style={{ color: '#3d8b5e' }}>Website Profesional</span> &amp; <span style={{ color: '#c96a1a' }}>SEO Bergaransi</span>
           </h2>
@@ -316,7 +316,7 @@ export default function Home() {
               <div className="absolute w-72 h-72 rounded-full z-0" style={{ background: 'radial-gradient(circle, #c8e6c9 0%, #e8f5e9 55%, transparent 75%)' }} />
               <img
                 src="/images/hero/hero-b.png"
-                alt="pixelcodedigital.id developer"
+                alt="nativecode.id developer"
                 className="relative z-10 w-60 sm:w-64 object-contain"
                 style={{ filter: 'drop-shadow(0 10px 30px rgba(0,0,0,0.10))' }}
               />
@@ -336,28 +336,28 @@ export default function Home() {
             </div>
             <div className="fade-up stagger-4 stat-card bg-white border border-gray-100 rounded-2xl shadow-sm p-6 sm:p-8 text-center">
               <Counter target={500} />
-              <p className="text-gray-500 text-sm mt-2">Klien menggunakan layanan pixelcodedigital.id</p>
+              <p className="text-gray-500 text-sm mt-2">Klien menggunakan layanan nativecode.id</p>
             </div>
           </div>
         </section>
 
-        {/* About pixelcodedigital.id */}
+        {/* About nativecode.id */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-16 items-center">
             <div className="fade-left">
-              <h3 className="text-2xl sm:text-3xl font-bold mb-1" style={{ color: '#c96a1a' }}>pixelcodedigital.id</h3>
+              <h3 className="text-2xl sm:text-3xl font-bold mb-1" style={{ color: '#c96a1a' }}>nativecode.id</h3>
               <p className="font-bold text-gray-800 mb-4 sm:mb-6">Experience by the Best</p>
               <div className="flex items-center gap-2 mb-6 sm:mb-8">
                 <div className="w-8 h-0.5 rounded" style={{ background: '#c96a1a' }} />
                 <div className="w-4 h-0.5 rounded" style={{ background: '#3d8b5e' }} />
               </div>
               <div className="flex items-center justify-center">
-                <img src="/images/hero/laptop.png" alt="pixelcodedigital.id" className="w-full max-w-sm object-contain" style={{ filter: 'drop-shadow(0 10px 30px rgba(0,0,0,0.10))' }} />
+                <img src="/images/hero/laptop.png" alt="nativecode.id" className="w-full max-w-sm object-contain" style={{ filter: 'drop-shadow(0 10px 30px rgba(0,0,0,0.10))' }} />
               </div>
             </div>
             <div className="fade-right space-y-4 sm:space-y-5">
               <p className="text-gray-600 leading-relaxed text-justify text-sm sm:text-base">
-                <strong className="text-gray-900">pixelcodedigital.id</strong> adalah <em>Creative Digital Agency</em> yang berfokus membantu bisnis membangun identitas dan pertumbuhan di dunia digital. Kami hadir sebagai mitra strategis untuk bisnis Anda — dari pembuatan website profesional, optimasi SEO, hingga kampanye digital yang terukur.
+                <strong className="text-gray-900">nativecode.id</strong> adalah <em>Creative Digital Agency</em> yang berfokus membantu bisnis membangun identitas dan pertumbuhan di dunia digital. Kami hadir sebagai mitra strategis untuk bisnis Anda — dari pembuatan website profesional, optimasi SEO, hingga kampanye digital yang terukur.
               </p>
               <p className="text-gray-600 leading-relaxed text-justify text-sm sm:text-base">
                 Dengan tim yang berpengalaman dan pendekatan berbasis data, kami memastikan setiap solusi digital yang kami hadirkan benar-benar memberikan dampak nyata bagi pertumbuhan bisnis Anda. Lebih dari <strong>300 website</strong> telah kami bangun dan <strong>500+ klien</strong> telah mempercayakan bisnis mereka kepada kami.
@@ -374,13 +374,13 @@ export default function Home() {
           <div className="mt-14 sm:mt-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-start">
               <p className="fade-left text-gray-600 leading-relaxed text-justify text-sm sm:text-base">
-                <strong>pixelcodedigital.id</strong> adalah platform marketplace dan direktori berbasis lokasi yang mempertemukan seller/mitra dan pembeli dalam satu ekosistem digital. Kami menghubungkan pelaku usaha lokal dengan pelanggan potensial secara efisien dan transparan, didukung teknologi modern yang mudah digunakan.
+                <strong>nativecode.id</strong> adalah platform marketplace dan direktori berbasis lokasi yang mempertemukan seller/mitra dan pembeli dalam satu ekosistem digital. Kami menghubungkan pelaku usaha lokal dengan pelanggan potensial secara efisien dan transparan, didukung teknologi modern yang mudah digunakan.
               </p>
               <p className="fade-right text-gray-600 leading-relaxed text-justify text-sm sm:text-base">
-                <strong>pixelcodedigital.id</strong> berkomitmen menjadi leading local marketplace &amp; directory yang memberdayakan UMKM hingga perusahaan besar. Bergabunglah dengan ribuan mitra yang telah mempercayakan pertumbuhan bisnis mereka kepada ekosistem digital pixelcodedigital.id.
+                <strong>nativecode.id</strong> berkomitmen menjadi leading local marketplace &amp; directory yang memberdayakan UMKM hingga perusahaan besar. Bergabunglah dengan ribuan mitra yang telah mempercayakan pertumbuhan bisnis mereka kepada ekosistem digital nativecode.id.
               </p>
             </div>
-            <h3 className="fade-up text-lg sm:text-xl font-bold text-center text-gray-900 mt-8 mb-6">Statistik Listing pixelcodedigital.id</h3>
+            <h3 className="fade-up text-lg sm:text-xl font-bold text-center text-gray-900 mt-8 mb-6">Statistik Listing nativecode.id</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
               {[{ val: 700, label: 'Mitra' },{ val: 627, label: 'Produk' },{ val: 125, label: 'Kategori' },{ val: 150, label: 'Kota' }].map(({ val, label }, i) => (
                 <div key={label} className={`fade-up stagger-${i + 1} stat-card bg-white border border-gray-100 rounded-2xl shadow-sm p-4 sm:p-6 text-center`}>
@@ -398,15 +398,15 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="fade-left hidden lg:flex items-center justify-center">
-              <img src="/images/hero/web.png" alt="Web Design pixelcodedigital.id" className="w-full max-w-lg object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
+              <img src="/images/hero/web.png" alt="Web Design nativecode.id" className="w-full max-w-lg object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
             </div>
             <div className="fade-right">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">Mau Buat Website?</h2>
-              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-4">pixelcodedigital.id – Solusi jasa pembuatan website profesional di Indonesia</h3>
+              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-4">nativecode.id – Solusi jasa pembuatan website profesional di Indonesia</h3>
               <p className="text-gray-600 leading-relaxed mb-3 text-sm sm:text-base">Kami menghadirkan website dengan desain menarik, mudah diakses, dan responsif di semua perangkat.</p>
               <p className="text-gray-600 leading-relaxed mb-6 text-sm sm:text-base">Dari website company profile, toko online, landing page, hingga aplikasi web — semua kami kerjakan dengan standar profesional dan proses yang transparan.</p>
               <a
-                href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+pixelcodedigital.id.+Mohon+bantuannya+%F0%9F%99%8F"
+                href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F"
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-white px-7 py-3 rounded-full font-semibold hover:opacity-90 transition-opacity text-sm sm:text-base"
                 style={{ background: '#c96a1a' }}
@@ -439,7 +439,7 @@ export default function Home() {
                       <p className="text-3xl sm:text-4xl font-bold mb-1" style={{ color: '#3d8b5e' }}>{p.harga}</p>
                       <p className="text-xs text-gray-400 mb-4">Perpanjangan {p.perp}</p>
                       <a
-                        href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+pixelcodedigital.id.+Mohon+bantuannya+%F0%9F%99%8F"
+                        href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F"
                         target="_blank" rel="noopener noreferrer"
                         className={`w-full py-2.5 rounded-full border text-sm font-semibold flex items-center justify-center gap-2 mb-4 transition-colors ${p.best ? 'border-[#3d8b5e] text-[#3d8b5e] hover:bg-[#3d8b5e] hover:text-white' : 'border-[#c96a1a] text-[#c96a1a] hover:bg-[#c96a1a] hover:text-white'}`}
                       >
@@ -488,7 +488,7 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
           <h2 className="fade-up text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Fitur Unggulan</h2>
           <p className="fade-up stagger-1 text-center font-semibold text-gray-700 mb-2 text-sm sm:text-base">Dapatkan Semua Fitur Ini Secara Gratis!</p>
-          <p className="fade-up stagger-2 text-center text-gray-500 mb-8 sm:mb-12 text-sm sm:text-base">Inilah yang Anda dapatkan dari Jasa Pembuatan Website pixelcodedigital.id</p>
+          <p className="fade-up stagger-2 text-center text-gray-500 mb-8 sm:mb-12 text-sm sm:text-base">Inilah yang Anda dapatkan dari Jasa Pembuatan Website nativecode.id</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-6 mb-10 sm:mb-24">
             {featureList.map((f, i) => (
               <div key={i} className={`fade-up stagger-${i + 1}`}>
@@ -530,7 +530,7 @@ export default function Home() {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div className="fade-left hidden lg:flex items-center justify-center">
-              <img src="/images/hero/other.png" alt="Tim pixelcodedigital.id" className="w-80 sm:w-96 object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
+              <img src="/images/hero/other.png" alt="Tim nativecode.id" className="w-80 sm:w-96 object-contain" style={{ filter: 'drop-shadow(0 8px 24px rgba(0,0,0,0.08))' }} />
             </div>
             <div className="fade-right">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Other Services</h2>
@@ -564,7 +564,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm px-6 py-4">
             <span className="flex-1 text-sm text-gray-400">Dapatkan Harga Spesial Sekarang</span>
             <a
-              href="https://wa.me/6282249244647?text=Halo+pixelcodedigital.id%2C+saya+ingin+konsultasi+mengenai+layanan+pixelcodedigital.id.+Mohon+bantuannya+%F0%9F%99%8F"
+              href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F"
               target="_blank" rel="noopener noreferrer"
               className="w-full sm:w-auto text-center text-white px-8 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity"
               style={{ background: '#3d8b5e' }}
