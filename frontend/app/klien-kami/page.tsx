@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Headphones } from 'lucide-react';
 import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
+import { useScrollAnim } from '@/hooks/use-scroll-anim';
 
 const semuaKlien = [
   { nama: 'Kouzina Restaurant', url: 'kouzina.icooking.com.au', link: 'https://kouzina.icooking.com.au/', kategori: 'F&B / Resto', img: '/images/porto/porto-kouzina.png' },
@@ -20,6 +21,7 @@ const kategori = ['Semua', ...Array.from(new Set(semuaKlien.map(k => k.kategori)
 export default function KlienKami() {
   const [aktif, setAktif] = useState('Semua');
   const [tampil, setTampil] = useState(6);
+  useScrollAnim();
 
   const daftarKlien = aktif === 'Semua' ? semuaKlien : semuaKlien.filter(k => k.kategori === aktif);
   const klienTampil = daftarKlien.slice(0, tampil);
@@ -38,20 +40,22 @@ export default function KlienKami() {
           className="relative flex flex-col items-center justify-center text-center py-16 sm:py-36 px-4 overflow-hidden rounded-b-[2rem] sm:rounded-b-[3rem]"
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
-          <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Klien Kami</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
-          <p className="text-sm sm:text-lg text-gray-600 mb-8">
+          <h1 className="fade-up text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Klien Kami</h1>
+          <p className="fade-up stagger-1 text-gray-500 mb-3 text-sm">www.nativecode.id</p>
+          <p className="fade-up stagger-2 text-sm sm:text-lg text-gray-600 mb-8">
             Jasa Pembuatan <span className="text-[#D17B36] font-semibold">Website Profesional</span> dan <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
-          <a href={whatsappLink} target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-7 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
-            <Headphones size={18} />Konsultasi
-          </a>
+          <div className="fade-up stagger-3">
+            <a href={whatsappLink} target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-7 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
+              <Headphones size={18} />Konsultasi
+            </a>
+          </div>
         </section>
 
         {/* STATS */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20 grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-10 items-start">
-          <div className="lg:col-span-1">
+          <div className="fade-left lg:col-span-1">
             <h2 className="text-2xl sm:text-3xl font-bold mb-3">
               <span className="text-[#D17B36]">nativecode</span><span className="text-[#5D9C76]">.id</span>
             </h2>
@@ -59,7 +63,7 @@ export default function KlienKami() {
               nativecode.id telah membangun lebih dari 300 website untuk berbagai jenis bisnis, dari usaha kecil hingga perusahaan besar. Setiap proyek menjadi bukti komitmen kami terhadap kualitas, inovasi, dan kepuasan pelanggan.
             </p>
           </div>
-          <div className="lg:col-span-2 grid grid-cols-2 gap-4 sm:gap-6">
+          <div className="fade-right lg:col-span-2 grid grid-cols-2 gap-4 sm:gap-6">
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-6 sm:p-8 flex flex-col justify-center">
               <p className="text-3xl sm:text-5xl font-bold text-gray-900 mb-2">300+</p>
               <p className="text-gray-500 text-xs sm:text-sm">Website yang telah kami bangun</p>
@@ -73,10 +77,10 @@ export default function KlienKami() {
 
         {/* PORTFOLIO */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 sm:pb-24">
-          <p className="font-semibold text-gray-700 mb-4 text-sm sm:text-base">Klik untuk memilih kategori</p>
+          <p className="fade-up font-semibold text-gray-700 mb-4 text-sm sm:text-base">Klik untuk memilih kategori</p>
 
-          {/* Kategori — horizontal scroll di mobile */}
-          <div className="w-full mb-6">
+          {/* Kategori */}
+          <div className="fade-up stagger-1 w-full mb-6">
             <div className="flex flex-wrap gap-2">
               {kategori.map((kat) => (
                 <button
@@ -96,7 +100,7 @@ export default function KlienKami() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
             {klienTampil.map((k, i) => (
               <Link key={i} href={k.link} target="_blank" rel="noopener noreferrer"
-                className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 block">
+                className={`fade-up stagger-${(i % 3) + 1} group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 block`}>
                 <div className="relative overflow-hidden bg-gray-100" style={{ height: '190px' }}>
                   <img src={k.img} alt={k.nama} className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500" />
                 </div>
@@ -116,7 +120,7 @@ export default function KlienKami() {
           </div>
 
           {tampil < daftarKlien.length && (
-            <div className="flex justify-center mt-8 sm:mt-10">
+            <div className="fade-up flex justify-center mt-8 sm:mt-10">
               <button onClick={() => setTampil(prev => prev + 3)}
                 className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-7 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
