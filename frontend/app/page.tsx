@@ -3,134 +3,13 @@
 import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
 import { useEffect, useRef, useState } from 'react';
+import { useScrollAnim } from '@/hooks/use-scroll-anim';
 
 function Ticker() {
   const items = ['SOCIAL MEDIA ADS', 'GOOGLE ADS', 'WEBSITE DESIGN', 'SEO OPTIMIZATION', 'MOBILE APPS', 'CREATIVE AGENCY'];
   const repeated = [...items, ...items, ...items];
   return (
     <div className="bg-[#4a9a66] py-4 overflow-hidden w-full">
-      <style>{`
-        @keyframes ticker { 0% { transform: translateX(0); } 100% { transform: translateX(-33.333%); } }
-        .ticker-inner { animation: ticker 22s linear infinite; }
-        @keyframes floatBadge { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-8px); } }
-        .float1 { animation: floatBadge 3s ease-in-out infinite; }
-        .float2 { animation: floatBadge 3s ease-in-out infinite 1s; }
-        .float3 { animation: floatBadge 3s ease-in-out infinite 2s; }
-        @keyframes floatRocket { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-12px); } }
-        .float-rocket { animation: floatRocket 3s ease-in-out infinite; }
-
-        /* ===== SCROLL ANIMATIONS ===== */
-        .fade-up {
-          opacity: 0;
-          transform: translateY(32px);
-          transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-        .fade-up.visible {
-          opacity: 1;
-          transform: translateY(0);
-        }
-        .fade-left {
-          opacity: 0;
-          transform: translateX(-32px);
-          transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-        .fade-left.visible {
-          opacity: 1;
-          transform: translateX(0);
-        }
-        .fade-right {
-          opacity: 0;
-          transform: translateX(32px);
-          transition: opacity 0.6s ease, transform 0.6s ease;
-        }
-        .fade-right.visible {
-          opacity: 1;
-          transform: translateX(0);
-        }
-        .fade-in {
-          opacity: 0;
-          transition: opacity 0.7s ease;
-        }
-        .fade-in.visible {
-          opacity: 1;
-        }
-
-        /* stagger delay untuk child elements */
-        .stagger-1 { transition-delay: 0.1s; }
-        .stagger-2 { transition-delay: 0.2s; }
-        .stagger-3 { transition-delay: 0.3s; }
-        .stagger-4 { transition-delay: 0.4s; }
-        .stagger-5 { transition-delay: 0.5s; }
-
-        /* ===== HERO ENTRANCE ANIMATION ===== */
-        @keyframes heroSlideUp {
-          0% { opacity: 0; transform: translateY(40px); }
-          100% { opacity: 1; transform: translateY(0); }
-        }
-        .hero-title {
-          animation: heroSlideUp 0.7s ease forwards;
-        }
-        .hero-desc {
-          animation: heroSlideUp 0.7s ease 0.15s forwards;
-          opacity: 0;
-        }
-        .hero-btns {
-          animation: heroSlideUp 0.7s ease 0.3s forwards;
-          opacity: 0;
-        }
-        .hero-img {
-          animation: heroSlideUp 0.8s ease 0.2s forwards;
-          opacity: 0;
-        }
-
-        /* ===== FEATURE CARD HOVER ===== */
-        .feature-card {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .feature-card:hover {
-          transform: translateY(-6px);
-          box-shadow: 0 16px 40px rgba(61, 139, 94, 0.12);
-        }
-
-        /* ===== PAKET CARD HOVER ===== */
-        .paket-card {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .paket-card:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 12px 32px rgba(0,0,0,0.10);
-        }
-
-        /* ===== SERVICE LINK HOVER ===== */
-        .service-link {
-          transition: transform 0.2s ease, opacity 0.2s ease;
-        }
-        .service-link:hover {
-          transform: translateX(4px);
-          opacity: 0.92;
-        }
-
-        /* ===== STATS COUNTER CARD HOVER ===== */
-        .stat-card {
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .stat-card:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 12px 32px rgba(0,0,0,0.08);
-        }
-
-        /* ===== BLOB PULSE ===== */
-        @keyframes blobPulse {
-          0%, 100% { transform: scale(1); }
-          50% { transform: scale(1.07); }
-        }
-        .blob-pulse {
-          animation: blobPulse 6s ease-in-out infinite;
-        }
-        .blob-pulse-2 {
-          animation: blobPulse 8s ease-in-out infinite 2s;
-        }
-      `}</style>
       <div className="ticker-inner flex gap-16 whitespace-nowrap w-max">
         {repeated.map((t, i) => (
           <span key={i} className="text-white font-bold text-xl tracking-widest opacity-60">{t}</span>
@@ -161,32 +40,14 @@ function Counter({ target }: { target: number }) {
   return <div ref={ref} className="text-4xl sm:text-5xl font-bold text-gray-900">{val.toLocaleString()}</div>;
 }
 
-/* Hook scroll animation */
-function useScrollAnim() {
-  useEffect(() => {
-    const targets = document.querySelectorAll('.fade-up, .fade-left, .fade-right, .fade-in');
-    const obs = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-            obs.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.12 }
-    );
-    targets.forEach((el) => obs.observe(el));
-    return () => obs.disconnect();
-  }, []);
-}
-
 const IconLogoDesign = () => (
   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-    <circle cx="12" cy="12" r="10"/>
-    <path d="M8 12l2.5 2.5L16 9"/>
+    <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+    <path d="M2 17l10 5 10-5"/>
+    <path d="M2 12l10 5 10-5"/>
   </svg>
 );
+
 const IconArticle = () => (
   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
@@ -196,15 +57,18 @@ const IconArticle = () => (
     <line x1="10" y1="9" x2="8" y2="9"/>
   </svg>
 );
+
 const IconListing = () => (
   <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="3" y="3" width="18" height="18" rx="2"/>
-    <path d="M3 9h18"/>
-    <path d="M9 21V9"/>
+    <rect x="2" y="3" width="20" height="14" rx="2"/>
+    <line x1="8" y1="21" x2="16" y2="21"/>
+    <line x1="12" y1="17" x2="12" y2="21"/>
+    <line x1="6" y1="8" x2="6" y2="8"/>
+    <line x1="10" y1="8" x2="18" y2="8"/>
+    <line x1="6" y1="12" x2="18" y2="12"/>
   </svg>
 );
 
-/* FeatureCard tanpa expand/toggle */
 function FeatureCard({ title, desc, icon }: {
   title: string;
   desc: string;
@@ -282,6 +146,7 @@ export default function Home() {
                   </svg>
                   Konsultasi Gratis
                 </a>
+                
                 <a
                   href="/layanan/pembuatan-website"
                   className="inline-flex items-center px-7 py-3 rounded-full font-semibold text-sm border-2 border-[#3d8b5e] text-[#3d8b5e] transition-colors hover:bg-[#3d8b5e] hover:text-white"
@@ -405,6 +270,7 @@ export default function Home() {
               <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-4">nativecode.id – Solusi jasa pembuatan website profesional di Indonesia</h3>
               <p className="text-gray-600 leading-relaxed mb-3 text-sm sm:text-base">Kami menghadirkan website dengan desain menarik, mudah diakses, dan responsif di semua perangkat.</p>
               <p className="text-gray-600 leading-relaxed mb-6 text-sm sm:text-base">Dari website company profile, toko online, landing page, hingga aplikasi web — semua kami kerjakan dengan standar profesional dan proses yang transparan.</p>
+              
               <a
                 href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F"
                 target="_blank" rel="noopener noreferrer"
@@ -438,6 +304,7 @@ export default function Home() {
                       <p className="text-center font-bold text-gray-700 text-base sm:text-lg mb-3">{p.nama}</p>
                       <p className="text-3xl sm:text-4xl font-bold mb-1" style={{ color: '#3d8b5e' }}>{p.harga}</p>
                       <p className="text-xs text-gray-400 mb-4">Perpanjangan {p.perp}</p>
+                      
                       <a
                         href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F"
                         target="_blank" rel="noopener noreferrer"
@@ -489,9 +356,9 @@ export default function Home() {
           <h2 className="fade-up text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Fitur Unggulan</h2>
           <p className="fade-up stagger-1 text-center font-semibold text-gray-700 mb-2 text-sm sm:text-base">Dapatkan Semua Fitur Ini Secara Gratis!</p>
           <p className="fade-up stagger-2 text-center text-gray-500 mb-8 sm:mb-12 text-sm sm:text-base">Inilah yang Anda dapatkan dari Jasa Pembuatan Website nativecode.id</p>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-6 mb-10 sm:mb-24">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-6 mb-10 sm:mb-24" style={{ alignItems: 'stretch' }}>
             {featureList.map((f, i) => (
-              <div key={i} className={`fade-up stagger-${i + 1}`}>
+              <div key={i} className={`fade-up stagger-${i + 1} flex`}>
                 <FeatureCard {...f} />
               </div>
             ))}
@@ -563,6 +430,7 @@ export default function Home() {
         <section className="fade-up max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 sm:pb-20">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm px-6 py-4">
             <span className="flex-1 text-sm text-gray-400">Dapatkan Harga Spesial Sekarang</span>
+            
             <a
               href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F"
               target="_blank" rel="noopener noreferrer"

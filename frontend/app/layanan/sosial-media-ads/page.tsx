@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
+import { useScrollAnim } from '@/hooks/use-scroll-anim';
 
 const HeadphonesIcon = ({ size = 18 }: { size?: number }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -23,35 +24,18 @@ const paket = [
 ];
 
 const faq = [
-  {
-    q: 'Apa bedanya iklan sosial media dengan SEO atau Google Ads?',
-    a: 'Iklan sosial media (Instagram, Facebook, TikTok, YouTube) menargetkan audiens berdasarkan demografi, minat, dan perilaku pengguna — cocok untuk meningkatkan brand awareness dan engagement. SEO dan Google Ads lebih fokus menjangkau orang yang sedang aktif mencari produk/jasa. Idealnya keduanya dikombinasikan untuk hasil maksimal.',
-  },
-  {
-    q: 'Apakah konten iklan disiapkan oleh nativecode.id?',
-    a: 'Ya! Semua paket sosial media ads kami sudah termasuk free konten design dan copy writing. Kami yang buatkan visual iklan dan teks yang menarik sesuai bisnis Anda. Untuk paket YouTube Ads, video perlu disiapkan oleh klien karena menyesuaikan kebutuhan bisnis masing-masing.',
-  },
-  {
-    q: 'Berapa lama iklan mulai tayang setelah pembayaran?',
-    a: 'Setelah pembayaran diterima dan semua materi iklan lengkap, iklan biasanya mulai proses setup dalam 1x24 jam. Estimasi iklan aktif tayang berkisar antara 24-48 jam. Kami akan konfirmasi langsung ke Anda begitu iklan sudah live.',
-  },
-  {
-    q: 'Apa itu jangkauan dan apakah ada garansinya?',
-    a: 'Jangkauan (reach) adalah jumlah orang unik yang melihat iklan Anda. Setiap paket memiliki estimasi jangkauan yang tertera — misalnya 2.000-4.000 orang untuk paket mingguan. Angka ini adalah estimasi berdasarkan performa rata-rata, bisa lebih tinggi tergantung relevansi konten dan target audiens yang dipilih.',
-  },
-  {
-    q: 'Apakah saya mendapatkan laporan hasil iklan?',
-    a: 'Ya, setiap paket sosial media ads sudah termasuk laporan iklan setiap minggu. Laporan mencakup data impresi, jangkauan, klik, dan performa iklan secara keseluruhan sehingga Anda bisa memantau perkembangan kampanye secara transparan.',
-  },
-  {
-    q: 'Platform mana yang paling efektif untuk bisnis saya?',
-    a: 'Tergantung target audiens bisnis Anda. Instagram & Facebook bagus untuk B2C, produk visual, dan UMKM. TikTok efektif untuk menjangkau audiens muda 18-35 tahun dengan konten video pendek. YouTube cocok untuk produk/jasa yang butuh penjelasan lebih panjang. Konsultasikan dengan tim kami untuk rekomendasi platform terbaik sesuai bisnis Anda.',
-  },
+  { q: 'Apa bedanya iklan sosial media dengan SEO atau Google Ads?', a: 'Iklan sosial media (Instagram, Facebook, TikTok, YouTube) menargetkan audiens berdasarkan demografi, minat, dan perilaku pengguna — cocok untuk meningkatkan brand awareness dan engagement. SEO dan Google Ads lebih fokus menjangkau orang yang sedang aktif mencari produk/jasa. Idealnya keduanya dikombinasikan untuk hasil maksimal.' },
+  { q: 'Apakah konten iklan disiapkan oleh nativecode.id?', a: 'Ya! Semua paket sosial media ads kami sudah termasuk free konten design dan copy writing. Kami yang buatkan visual iklan dan teks yang menarik sesuai bisnis Anda. Untuk paket YouTube Ads, video perlu disiapkan oleh klien karena menyesuaikan kebutuhan bisnis masing-masing.' },
+  { q: 'Berapa lama iklan mulai tayang setelah pembayaran?', a: 'Setelah pembayaran diterima dan semua materi iklan lengkap, iklan biasanya mulai proses setup dalam 1x24 jam. Estimasi iklan aktif tayang berkisar antara 24-48 jam. Kami akan konfirmasi langsung ke Anda begitu iklan sudah live.' },
+  { q: 'Apa itu jangkauan dan apakah ada garansinya?', a: 'Jangkauan (reach) adalah jumlah orang unik yang melihat iklan Anda. Setiap paket memiliki estimasi jangkauan yang tertera — misalnya 2.000-4.000 orang untuk paket mingguan. Angka ini adalah estimasi berdasarkan performa rata-rata, bisa lebih tinggi tergantung relevansi konten dan target audiens yang dipilih.' },
+  { q: 'Apakah saya mendapatkan laporan hasil iklan?', a: 'Ya, setiap paket sosial media ads sudah termasuk laporan iklan setiap minggu. Laporan mencakup data impresi, jangkauan, klik, dan performa iklan secara keseluruhan sehingga Anda bisa memantau perkembangan kampanye secara transparan.' },
+  { q: 'Platform mana yang paling efektif untuk bisnis saya?', a: 'Tergantung target audiens bisnis Anda. Instagram & Facebook bagus untuk B2C, produk visual, dan UMKM. TikTok efektif untuk menjangkau audiens muda 18-35 tahun dengan konten video pendek. YouTube cocok untuk produk/jasa yang butuh penjelasan lebih panjang. Konsultasikan dengan tim kami untuk rekomendasi platform terbaik sesuai bisnis Anda.' },
 ];
 
 export default function SosialMediaAds() {
   const [openSet, setOpenSet] = useState<Set<string>>(new Set());
   const [openFaq, setOpenFaq] = useState<Set<number>>(new Set());
+  useScrollAnim();
 
   const toggleDetail = (key: string) => {
     setOpenSet(prev => {
@@ -79,22 +63,22 @@ export default function SosialMediaAds() {
           className="relative flex flex-col items-center justify-center text-center py-16 sm:py-36 px-4 overflow-hidden rounded-b-[2rem] sm:rounded-b-[3rem]"
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
-          <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Sosial Media Ads</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
-          <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
+          <h1 className="fade-up text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Sosial Media Ads</h1>
+          <p className="fade-up stagger-1 text-gray-500 mb-3 text-sm">www.nativecode.id</p>
+          <p className="fade-up stagger-2 text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan <span className="text-[#D17B36] font-semibold">Website Profesional</span> dan <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
-          <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Sosial+Media+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
-            <HeadphonesIcon size={18} />Konsultasi
-          </a>
+          <div className="fade-up stagger-3">
+            <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Sosial+Media+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base">
+              <HeadphonesIcon size={18} />Konsultasi
+            </a>
+          </div>
         </section>
 
         {/* ABOUT */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-            <div>
-              <div className="flex items-center gap-2 mb-4">
-              </div>
+            <div className="fade-left">
               <h2 className="text-2xl sm:text-3xl font-bold mb-1">
                 <span className="text-[#D17B36]">nativecode</span><span className="text-[#5D9C76]">.id</span>
               </h2>
@@ -112,7 +96,7 @@ export default function SosialMediaAds() {
                 </a>
               </div>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="fade-right flex items-center justify-center">
               <div className="relative w-full max-w-xs sm:max-w-sm lg:max-w-lg" style={{ aspectRatio: '1/1' }}>
                 <Image src="/images/hero/sosmed1.png" alt="Sosial Media Ads" fill className="object-contain" priority />
               </div>
@@ -122,9 +106,9 @@ export default function SosialMediaAds() {
 
         {/* PAKET */}
         <section id="paket" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Paket Sosial Media Ads</h2>
-          <p className="text-center font-semibold text-gray-700 mb-2 text-sm sm:text-base">Tingkatkan Jangkauan & Penjualan Bisnis Anda!</p>
-          <p className="text-center text-gray-500 mb-8 sm:mb-12 text-sm sm:text-base px-2">
+          <h2 className="fade-up text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Paket Sosial Media Ads</h2>
+          <p className="fade-up stagger-1 text-center font-semibold text-gray-700 mb-2 text-sm sm:text-base">Tingkatkan Jangkauan & Penjualan Bisnis Anda!</p>
+          <p className="fade-up stagger-2 text-center text-gray-500 mb-8 sm:mb-12 text-sm sm:text-base px-2">
             Kami menghadirkan berbagai paket iklan sosial media yang dirancang khusus untuk membantu bisnis Anda menarik audiens yang tepat dan mencapai hasil maksimal.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 items-start">
@@ -132,7 +116,7 @@ export default function SosialMediaAds() {
               const key = `${i}`;
               const isOpen = openSet.has(key);
               return (
-                <div key={key} className="bg-gradient-to-b from-[#e8f5e9] to-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden flex flex-col">
+                <div key={key} className={`fade-up stagger-${(i % 3) + 1} bg-gradient-to-b from-[#e8f5e9] to-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden flex flex-col`}>
                   <div className="p-5 sm:p-6 flex flex-col flex-1">
                     <div className="flex items-center gap-2 mb-4">
                       <span className="w-3 h-3 rounded-full bg-[#D17B36]" />
@@ -170,18 +154,14 @@ export default function SosialMediaAds() {
 
         {/* FAQ */}
         <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 pb-14 sm:pb-20 w-full">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Pertanyaan yang Sering Diajukan</h2>
-          <p className="text-center text-gray-500 mb-8 sm:mb-10 text-sm sm:text-base">Semua yang perlu Anda tahu tentang layanan Sosial Media Ads kami</p>
-
+          <h2 className="fade-up text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-2">Pertanyaan yang Sering Diajukan</h2>
+          <p className="fade-up stagger-1 text-center text-gray-500 mb-8 sm:mb-10 text-sm sm:text-base">Semua yang perlu Anda tahu tentang layanan Sosial Media Ads kami</p>
           <div className="space-y-3">
             {faq.map((item, i) => {
               const isOpen = openFaq.has(i);
               return (
                 <div key={i} className="bg-white border border-gray-100 rounded-2xl shadow-sm overflow-hidden">
-                  <button
-                    onClick={() => toggleFaq(i)}
-                    className="w-full px-5 sm:px-6 py-4 flex items-center justify-between gap-4 text-left hover:bg-gray-50 transition-colors"
-                  >
+                  <button onClick={() => toggleFaq(i)} className="w-full px-5 sm:px-6 py-4 flex items-center justify-between gap-4 text-left hover:bg-gray-50 transition-colors">
                     <span className="font-semibold text-gray-800 text-sm sm:text-base leading-snug">{item.q}</span>
                     <span className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${isOpen ? 'bg-[#5D9C76] text-white' : 'bg-gray-100 text-gray-500'}`}>
                       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className={`transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
@@ -199,7 +179,6 @@ export default function SosialMediaAds() {
               );
             })}
           </div>
-
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-4 bg-white border border-gray-100 rounded-2xl shadow-sm px-5 sm:px-6 py-4">
             <p className="flex-1 text-sm text-gray-500 text-center sm:text-left">Masih ada pertanyaan? Konsultasikan langsung dengan tim kami.</p>
             <a href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Sosial+Media+Ads.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-[#c26f2f] transition-colors whitespace-nowrap">
