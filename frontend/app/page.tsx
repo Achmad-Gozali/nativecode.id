@@ -310,7 +310,7 @@ export default function Home() {
                         target="_blank" rel="noopener noreferrer"
                         className={`w-full py-2.5 rounded-full border text-sm font-semibold flex items-center justify-center gap-2 mb-4 transition-colors ${p.best ? 'border-[#3d8b5e] text-[#3d8b5e] hover:bg-[#3d8b5e] hover:text-white' : 'border-[#c96a1a] text-[#c96a1a] hover:bg-[#c96a1a] hover:text-white'}`}
                       >
-                        Book Now ✈
+                        Pesan Sekarang
                       </a>
                       <div className="text-white text-center text-sm font-semibold py-2 rounded-lg mb-4" style={{ background: '#3d8b5e' }}>Fitur Paket</div>
                       <ul className="space-y-2 mb-4">

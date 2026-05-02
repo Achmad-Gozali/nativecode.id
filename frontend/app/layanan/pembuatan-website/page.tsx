@@ -227,8 +227,7 @@ export default function PembuatanWebsite() {
                         target="_blank" rel="noopener noreferrer"
                         className={`w-full py-2.5 rounded-full border font-semibold text-sm mb-4 flex items-center justify-center gap-2 transition-colors ${p.bestSeller ? 'border-[#5D9C76] text-[#5D9C76] hover:bg-[#5D9C76] hover:text-white' : 'border-[#D17B36] text-[#D17B36] hover:bg-[#D17B36] hover:text-white'}`}
                       >
-                        Book Now
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+                        Pesan Sekarang
                       </a>
                       <div className="bg-[#5D9C76] text-white text-center text-sm font-semibold py-2 rounded-lg mb-4">Fitur Paket</div>
                       <ul className="space-y-2 mb-4">

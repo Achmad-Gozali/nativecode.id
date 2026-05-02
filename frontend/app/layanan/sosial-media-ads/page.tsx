@@ -143,7 +143,7 @@ export default function SosialMediaAds() {
                       </ul>
                     )}
                     <button className="w-full py-2.5 rounded-full border border-[#D17B36] text-[#D17B36] font-semibold text-sm flex items-center justify-center gap-2 hover:bg-[#D17B36] hover:text-white transition-colors mt-auto">
-                      Book Now<HeadphonesIcon size={14} />
+                      Pesan Sekarang
                     </button>
                   </div>
                 </div>

@@ -217,8 +217,7 @@ export default function PembuatanAplikasi() {
                         href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+Pembuatan+Aplikasi.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
                         className={`w-full py-2 sm:py-2.5 rounded-full border font-semibold text-sm mb-4 flex items-center justify-center gap-2 transition-colors ${p.bestSeller ? 'border-[#5D9C76] text-[#5D9C76] hover:bg-[#5D9C76] hover:text-white' : 'border-[#D17B36] text-[#D17B36] hover:bg-[#D17B36] hover:text-white'}`}
                       >
-                        {p.nama === 'Enterprise' ? 'Konsultasi Gratis' : 'Book Now'}
-                        <HeadphonesIcon size={14} />
+                        {p.nama === 'Enterprise' ? 'Konsultasi Gratis' : 'Pesan Sekarang'}
                       </a>
                       <div className="bg-[#5D9C76] text-white text-center text-sm font-semibold py-2 rounded-lg mb-4">Fitur Paket</div>
                       <ul className="space-y-2 mb-4">

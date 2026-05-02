@@ -11,7 +11,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'nativecode.id - Jasa Website Profesional',
+  title: 'nativecode - Jasa Website Profesional Jakarta Utara',
   description: 'Solusi digital lengkap untuk wujudkan bisnismu lebih cepat.',
   icons: {
     icon: [
