@@ -2,6 +2,7 @@
 import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
 import Image from 'next/image';
+import { useScrollAnim } from '@/hooks/use-scroll-anim';
 
 const HeadphonesIcon = ({ size = 18 }: { size?: number }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -12,6 +13,8 @@ const HeadphonesIcon = ({ size = 18 }: { size?: number }) => (
 );
 
 export default function TentangKami() {
+  useScrollAnim();
+
   return (
     <>
       <Navigasi />
@@ -22,21 +25,23 @@ export default function TentangKami() {
           className="relative flex flex-col items-center justify-center text-center py-16 sm:py-32 px-4 overflow-hidden rounded-b-[2rem] sm:rounded-b-[3rem]"
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
-          <p className="text-sm text-gray-500 mb-2">www.nativecode.id</p>
-          <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-4">Tentang Kami</h1>
-          <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
+          <p className="fade-up text-sm text-gray-500 mb-2">www.nativecode.id</p>
+          <h1 className="fade-up stagger-1 text-2xl sm:text-5xl font-bold text-gray-900 mb-4">Tentang Kami</h1>
+          <p className="fade-up stagger-2 text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan{' '}
             <span className="text-[#D17B36] font-semibold">Website Profesional</span>{' '}
             dan{' '}
             <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
-          <a
-            href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
-          >
-            <HeadphonesIcon size={18} />
-            Konsultasi
-          </a>
+          <div className="fade-up stagger-3">
+            <a
+              href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
+            >
+              <HeadphonesIcon size={18} />
+              Konsultasi
+            </a>
+          </div>
         </section>
 
         {/* ABOUT SECTION */}
@@ -44,7 +49,7 @@ export default function TentangKami() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
 
             {/* Left */}
-            <div>
+            <div className="fade-left">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-1">About</h2>
               <h2 className="text-3xl sm:text-4xl font-bold mb-2">
                 <span className="text-[#D17B36]">pixelcode</span>
@@ -70,7 +75,7 @@ export default function TentangKami() {
             </div>
 
             {/* Right */}
-            <div className="flex flex-col justify-center h-full pt-0 lg:pt-24 space-y-6 text-gray-600 leading-relaxed">
+            <div className="fade-right flex flex-col justify-center h-full pt-0 lg:pt-24 space-y-6 text-gray-600 leading-relaxed">
               <p className="text-justify text-sm sm:text-base">
                 <strong className="text-gray-900">nativecode.id</strong> adalah <em>Creative Digital Agency</em> yang berfokus membantu bisnis membangun identitas dan pertumbuhan di dunia digital. Kami hadir sebagai mitra strategis bagi perusahaan yang ingin tampil profesional dan menjangkau pasar lebih luas melalui solusi digital yang efektif. Dengan pengalaman dalam pembuatan website, SEO bergaransi, manajemen iklan digital, dan pengembangan aplikasi, kami menghadirkan layanan yang terintegrasi untuk memperkuat kehadiran online setiap klien.
               </p>
@@ -85,7 +90,7 @@ export default function TentangKami() {
         {/* KOMITMEN SECTION */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 sm:pb-20">
           <div
-            className="rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-0 items-center"
+            className="fade-up rounded-3xl overflow-hidden grid grid-cols-1 lg:grid-cols-2 gap-0 items-center"
             style={{ background: 'linear-gradient(135deg, #3d8b5e 0%, #5aad7a 60%, #e8f5e9 100%)' }}
           >
             <div className="flex items-center justify-center p-8 lg:p-12">
@@ -106,13 +111,11 @@ export default function TentangKami() {
 
         {/* MENGAPA MEMILIH KAMI */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 sm:pb-24">
-          <div className="flex items-center gap-2 mb-4">
-          </div>
-          <h2 className="text-2xl sm:text-3xl font-bold mb-1">
+          <h2 className="fade-up text-2xl sm:text-3xl font-bold mb-1">
             <span className="text-[#D17B36]">nativecode</span>
             <span className="text-[#5D9C76]">.id</span>
           </h2>
-          <p className="text-gray-700 font-semibold mb-8 sm:mb-12 text-sm sm:text-base">
+          <p className="fade-up stagger-1 text-gray-700 font-semibold mb-8 sm:mb-12 text-sm sm:text-base">
             Jasa Pembuatan Website Profesional &amp; SEO Bergaransi
           </p>
 
@@ -153,7 +156,7 @@ export default function TentangKami() {
                 desc: 'Setiap layanan SEO kami dilengkapi garansi hasil. Kepuasan Anda adalah prioritas utama bagi kami — investasi digital Anda aman dan efektif serta memberikan hasil yang nyata.',
               },
             ].map((item, i) => (
-              <div key={i} className="bg-gradient-to-br from-[#fff8f0] to-[#fef3e8] rounded-2xl p-6 sm:p-8 hover:shadow-md transition-shadow">
+              <div key={i} className={`fade-up stagger-${i + 1} bg-gradient-to-br from-[#fff8f0] to-[#fef3e8] rounded-2xl p-6 sm:p-8 hover:shadow-md transition-shadow`}>
                 <div className="mb-4">{item.icon}</div>
                 <h3 className="font-bold text-gray-900 text-base sm:text-lg mb-3">{item.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>

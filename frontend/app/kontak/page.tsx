@@ -2,11 +2,13 @@
 import { useState } from 'react';
 import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
+import { useScrollAnim } from '@/hooks/use-scroll-anim';
 
 export default function Kontak() {
   const [form, setForm] = useState({ nama: '', email: '', subject: '', pesan: '' });
   const [terkirim, setTerkirim] = useState(false);
   const [loading, setLoading] = useState(false);
+  useScrollAnim();
 
   const handleSubmit = () => {
     if (!form.nama || !form.email || !form.subject) return;
@@ -38,37 +40,34 @@ export default function Kontak() {
 
           <div className="relative max-w-7xl mx-auto">
             <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+
+              {/* Kiri: teks */}
               <div className="flex-1">
-                <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+                <h1 className="fade-up text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
                   Mari Wujudkan<br />
                   <span className="text-[#5D9C76]">Visi Digital</span><br />
                   Bisnis Anda
                 </h1>
-                <p className="text-gray-500 text-lg leading-relaxed max-w-md">
+                <p className="fade-up stagger-1 text-gray-500 text-lg leading-relaxed max-w-md">
                   Tim nativecode.id siap mendampingi Anda dalam membangun kehadiran digital yang profesional dan berdampak nyata.
                 </p>
-                
-                {/* Tombol WhatsApp dengan Logo Asli */}
-                <a
-                  href={whatsappLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-8 inline-flex items-center gap-3 bg-[#25D366] text-white px-7 py-3.5 rounded-xl font-semibold hover:bg-[#20b859] transition-all duration-200 shadow-lg shadow-[#25D366]/20 hover:shadow-[#25D366]/30 hover:-translate-y-0.5"
-                >
-                  {/* Logo WhatsApp Asli */}
-                  <svg 
-                    xmlns="http://www.w3.org/2000/svg" 
-                    viewBox="0 0 448 512" 
-                    className="w-5 h-5 fill-current"
+                <div className="fade-up stagger-2">
+                  <a
+                    href={whatsappLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-8 inline-flex items-center gap-3 bg-[#25D366] text-white px-7 py-3.5 rounded-xl font-semibold hover:bg-[#20b859] transition-all duration-200 shadow-lg shadow-[#25D366]/20 hover:shadow-[#25D366]/30 hover:-translate-y-0.5"
                   >
-                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.2-17.1-41.4-4.5-10.9-9.1-9.4-12.5-9.6-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.3 13.8 10.4-1.6 32.1-13.1 36.6-25.8 4.5-12.7 4.5-23.6 3.2-25.9-1.4-2.3-5.1-3.7-10.6-6.5z"/>
-                  </svg>
-                  Konsultasi via WhatsApp
-                </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="w-5 h-5 fill-current">
+                      <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.2-17.1-41.4-4.5-10.9-9.1-9.4-12.5-9.6-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.3 13.8 10.4-1.6 32.1-13.1 36.6-25.8 4.5-12.7 4.5-23.6 3.2-25.9-1.4-2.3-5.1-3.7-10.6-6.5z"/>
+                    </svg>
+                    Konsultasi via WhatsApp
+                  </a>
+                </div>
               </div>
 
-              {/* Info kontak card */}
-              <div className="flex-1 w-full max-w-md">
+              {/* Kanan: info card */}
+              <div className="fade-right flex-1 w-full max-w-md">
                 <div className="bg-white rounded-3xl shadow-xl shadow-gray-100 p-8 border border-gray-100">
                   <p className="text-xs font-bold tracking-widest text-gray-400 uppercase mb-6">Informasi Kontak</p>
                   <div className="space-y-5">
@@ -135,13 +134,14 @@ export default function Kontak() {
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </section>
 
         {/* FORM */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
-          <div className="max-w-2xl mx-auto">
+          <div className="fade-up max-w-2xl mx-auto">
             <div className="text-center mb-10">
               <h2 className="text-3xl font-bold text-gray-900">Kirim Pesan kepada Kami</h2>
               <p className="text-gray-500 mt-3 text-sm">Kami akan merespons pesan Anda dalam 1x24 jam kerja.</p>

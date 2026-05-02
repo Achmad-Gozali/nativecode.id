@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
 import { posts } from '@/lib/posts';
+import { useScrollAnim } from '@/hooks/use-scroll-anim';
 
 const HeadphonesIcon = ({ size = 18 }: { size?: number }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -17,6 +18,7 @@ const PER_HALAMAN = 6;
 
 export default function Blog() {
   const [halaman, setHalaman] = useState(1);
+  useScrollAnim();
 
   const totalHalaman = Math.ceil(posts.length / PER_HALAMAN);
   const start = (halaman - 1) * PER_HALAMAN;
@@ -32,28 +34,30 @@ export default function Blog() {
           className="relative flex flex-col items-center justify-center text-center py-16 sm:py-36 px-4 overflow-hidden rounded-b-[2rem] sm:rounded-b-[3rem]"
           style={{ background: 'radial-gradient(ellipse at top left, #c8e6c9 0%, #e8f5e9 30%, #fff8f0 60%, #ffe0b2 100%)' }}
         >
-          <h1 className="text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Blog</h1>
-          <p className="text-gray-500 mb-3 text-sm">www.nativecode.id</p>
-          <p className="text-sm sm:text-lg text-gray-600 mb-8 px-2">
+          <h1 className="fade-up text-2xl sm:text-5xl font-bold text-gray-900 mb-3">Blog</h1>
+          <p className="fade-up stagger-1 text-gray-500 mb-3 text-sm">www.nativecode.id</p>
+          <p className="fade-up stagger-2 text-sm sm:text-lg text-gray-600 mb-8 px-2">
             Jasa Pembuatan{' '}
             <span className="text-[#D17B36] font-semibold">Website Profesional</span>{' '}
             dan{' '}
             <span className="text-[#5D9C76] font-semibold">SEO Bergaransi</span>
           </p>
-          <a
-            href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
-          >
-            <HeadphonesIcon size={18} />
-            Konsultasi
-          </a>
-        </section>  
+          <div className="fade-up stagger-3">
+            <a
+              href="https://wa.me/6282249244647?text=Halo+nativecode.id%2C+saya+ingin+konsultasi+mengenai+layanan+nativecode.id.+Mohon+bantuannya+%F0%9F%99%8F" target="_blank" rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm sm:text-base"
+            >
+              <HeadphonesIcon size={18} />
+              Konsultasi
+            </a>
+          </div>
+        </section>
 
         {/* POSTS */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 w-full">
 
           {/* Header card */}
-          <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-10 mb-8 sm:mb-10 shadow-sm">
+          <div className="fade-up bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-10 mb-8 sm:mb-10 shadow-sm">
             <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-3 leading-tight">
               Artikel untuk bantu bisnis Anda<br className="hidden sm:block" /> tampil lebih meyakinkan
             </h2>
