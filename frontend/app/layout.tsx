@@ -21,6 +21,20 @@ export const metadata: Metadata = {
     ],
     apple: '/icon.png',
   },
+  metadataBase: new URL('https://nativecode.vercel.app'),
+  openGraph: {
+    title: 'nativecode - Jasa Website Profesional Jakarta Utara',
+    description: 'Solusi digital lengkap untuk wujudkan bisnismu lebih cepat.',
+    url: 'https://nativecode.vercel.app',
+    siteName: 'nativecode.id',
+    locale: 'id_ID',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'nativecode - Jasa Website Profesional Jakarta Utara',
+    description: 'Solusi digital lengkap untuk wujudkan bisnismu lebih cepat.',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

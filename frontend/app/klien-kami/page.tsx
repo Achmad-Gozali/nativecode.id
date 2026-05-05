@@ -1,5 +1,4 @@
 'use client';
-import { useState } from 'react';
 import Link from 'next/link';
 import { Headphones } from 'lucide-react';
 import Navigasi from '@/komponen/Navigasi';
@@ -7,26 +6,17 @@ import Footer from '@/komponen/Footer';
 import { useScrollAnim } from '@/hooks/use-scroll-anim';
 
 const semuaKlien = [
-  { nama: 'Kouzina Restaurant', url: 'kouzina.icooking.com.au', link: 'https://kouzina.icooking.com.au/', kategori: 'F&B / Resto', img: '/images/porto/porto-kouzina.png' },
-  { nama: 'Inti Berkat Jaya (IBJ)', url: 'intiberkatjaya.com', link: 'https://intiberkatjaya.com/', kategori: 'Distribusi', img: '/images/porto/porto-ibj.png' },
-  { nama: 'Arumaya Residences', url: 'arumayaresidence.com', link: 'https://www.arumayaresidence.com/index.html', kategori: 'Properti', img: '/images/porto/porto-arumaya.png' },
-  { nama: 'Jababeka Residence', url: 'jababekaresidence.com', link: 'https://jababekaresidence.com/', kategori: 'Properti', img: '/images/porto/porto-jababeka.png' },
-  { nama: 'Insperra by PT Saptakarsa', url: 'insperra.com', link: 'https://insperra.com/', kategori: 'Manufaktur & Industri', img: '/images/porto/porto-insperra.png' },
-  { nama: 'CaptainFix Bag & Shoes', url: 'captainfix.co.id', link: 'https://captainfix.co.id/', kategori: 'Jasa & Servis', img: '/images/porto/porto-captainfix.png' },
-  { nama: 'Pangkal Multikarya', url: 'pangkalmultikarya.com', link: 'https://pangkalmultikarya.com/', kategori: 'Distribusi', img: '/images/porto/porto-pangkal.png' },
+  { nama: 'Kouzina Restaurant', url: 'kouzina.icooking.com.au', link: 'https://kouzina.icooking.com.au/', img: '/images/porto/porto-kouzina.png' },
+  { nama: 'Inti Berkat Jaya (IBJ)', url: 'intiberkatjaya.com', link: 'https://intiberkatjaya.com/', img: '/images/porto/porto-ibj.png' },
+  { nama: 'Arumaya Residences', url: 'arumayaresidence.com', link: 'https://www.arumayaresidence.com/index.html', img: '/images/porto/porto-arumaya.png' },
+  { nama: 'Jababeka Residence', url: 'jababekaresidence.com', link: 'https://jababekaresidence.com/', img: '/images/porto/porto-jababeka.png' },
+  { nama: 'Insperra by PT Saptakarsa', url: 'insperra.com', link: 'https://insperra.com/', img: '/images/porto/porto-insperra.png' },
+  { nama: 'CaptainFix Bag & Shoes', url: 'captainfix.co.id', link: 'https://captainfix.co.id/', img: '/images/porto/porto-captainfix.png' },
+  { nama: 'Pangkal Multikarya', url: 'pangkalmultikarya.com', link: 'https://pangkalmultikarya.com/', img: '/images/porto/porto-pangkal.png' },
 ];
 
-const kategori = ['Semua', ...Array.from(new Set(semuaKlien.map(k => k.kategori)))];
-
 export default function KlienKami() {
-  const [aktif, setAktif] = useState('Semua');
-  const [tampil, setTampil] = useState(6);
   useScrollAnim();
-
-  const daftarKlien = aktif === 'Semua' ? semuaKlien : semuaKlien.filter(k => k.kategori === aktif);
-  const klienTampil = daftarKlien.slice(0, tampil);
-
-  const handleKategori = (kat: string) => { setAktif(kat); setTampil(6); };
 
   const whatsappLink = `https://wa.me/6282249244647?text=Halo%20nativecode.id%2C%20saya%20tertarik%20dengan%20layanan%20pembuatan%20website%20profesional%20dan%20SEO%20bergaransi.%20Mohon%20informasi%20lebih%20lanjut.`;
 
@@ -77,28 +67,8 @@ export default function KlienKami() {
 
         {/* PORTFOLIO */}
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 sm:pb-24">
-          <p className="fade-up font-semibold text-gray-700 mb-4 text-sm sm:text-base">Klik untuk memilih kategori</p>
-
-          {/* Kategori */}
-          <div className="fade-up stagger-1 w-full mb-6">
-            <div className="flex flex-wrap gap-2">
-              {kategori.map((kat) => (
-                <button
-                  key={kat}
-                  onClick={() => handleKategori(kat)}
-                  className={`px-4 py-2 rounded-xl text-sm font-medium transition-colors whitespace-nowrap ${
-                    aktif === kat ? 'bg-[#D17B36] text-white shadow-sm' : 'text-gray-600 hover:bg-gray-100 bg-white border border-gray-100'
-                  }`}
-                >
-                  {kat}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Grid klien */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
-            {klienTampil.map((k, i) => (
+            {semuaKlien.map((k, i) => (
               <Link key={i} href={k.link} target="_blank" rel="noopener noreferrer"
                 className={`fade-up stagger-${(i % 3) + 1} group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 block`}>
                 <div className="relative overflow-hidden bg-gray-100" style={{ height: '190px' }}>
@@ -118,19 +88,6 @@ export default function KlienKami() {
               </Link>
             ))}
           </div>
-
-          {tampil < daftarKlien.length && (
-            <div className="fade-up flex justify-center mt-8 sm:mt-10">
-              <button onClick={() => setTampil(prev => prev + 3)}
-                className="inline-flex items-center gap-2 bg-[#D17B36] text-white px-7 py-3 rounded-full font-semibold hover:bg-[#c26f2f] transition-colors shadow-md text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                </svg>
-                More Client
-              </button>
-            </div>
-          )}
         </section>
 
       </main>
