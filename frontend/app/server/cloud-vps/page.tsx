@@ -114,7 +114,7 @@ export default function CloudVPSTurboPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://my.domainesia.com/ref.php?u=26885"
+                  href="https://www.domainesia.com/cloud-vps/?aff=26885"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-bold px-7 py-3.5 rounded-xl transition-colors shadow-md text-sm"
@@ -167,12 +167,11 @@ export default function CloudVPSTurboPage() {
         <div className="w-full bg-white pt-10 pb-2 px-4">
           <div className="max-w-6xl mx-auto flex justify-center">
             <a
-              href="https://my.domainesia.com/ref.php?u=26885"
+              href="https://www.domainesia.com/cloud-vps/?aff=26885"
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full max-w-4xl"
             >
-              {/* Desktop */}
               <img
                 src="https://dnva.me/bne38"
                 width={1000}
@@ -180,7 +179,6 @@ export default function CloudVPSTurboPage() {
                 alt="DomaiNesia - Saatnya Beralih ke Cloud VPS Berperforma Tinggi"
                 className="hidden sm:block w-full h-auto rounded-xl shadow-sm"
               />
-              {/* Mobile */}
               <img
                 src="https://dnva.me/bne38"
                 width={480}
@@ -211,13 +209,14 @@ export default function CloudVPSTurboPage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* FIX: mt-6 dipindah ke grid, hapus dari card individual */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
               {displayPaket.map((p: PaketVPSTurbo, i: number) => (
                 <div key={i} className={`relative bg-white rounded-2xl border-2 flex flex-col shadow-sm ${
                   p.badge === 'BEST VALUE' ? 'border-[#5D9C76]' :
                   p.badge === 'BEST PERFORMANCE' ? 'border-[#D17B36]' :
                   'border-gray-100'
-                } ${p.badge ? 'mt-6' : ''}`}>
+                }`}>
                   {p.badge && (
                     <div className="absolute -top-4 left-0 right-0 flex justify-center">
                       <span className={`text-xs font-bold px-4 py-1.5 rounded-full shadow-sm flex items-center gap-1 ${
@@ -288,7 +287,7 @@ export default function CloudVPSTurboPage() {
                 <h3 className="text-xl font-bold text-white mb-3">{fiturTabVPSTurbo[activeFeatureTab].title}</h3>
                 <p className="text-white/75 text-sm leading-relaxed mb-6">{fiturTabVPSTurbo[activeFeatureTab].desc}</p>
                 <a
-                  href="https://my.domainesia.com/ref.php?u=26885"
+                  href="https://www.domainesia.com/cloud-vps/?aff=26885"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-bold px-6 py-3 rounded-xl text-sm transition-colors"
@@ -361,7 +360,7 @@ export default function CloudVPSTurboPage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <a
-                href="https://my.domainesia.com/ref.php?u=26885"
+                href="https://www.domainesia.com/cloud-vps/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-semibold px-6 py-3 rounded-xl transition-colors text-sm whitespace-nowrap inline-block text-center"

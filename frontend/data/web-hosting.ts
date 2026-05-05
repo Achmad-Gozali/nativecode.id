@@ -10,7 +10,7 @@ export const paketWebHosting = [
     domain: 'Gratis Domain .ONLINE',
     performance: '1X Performance',
     badge: null as string | null,
-    href: 'https://domainesia.com/hosting/',
+    href: 'https://www.domainesia.com/hosting/?aff=26885',
   },
   {
     nama: 'Super',
@@ -23,7 +23,7 @@ export const paketWebHosting = [
     domain: 'Gratis Domain .COM',
     performance: '2X Performance',
     badge: 'BEST VALUE' as string | null,
-    href: 'https://domainesia.com/hosting/',
+    href: 'https://www.domainesia.com/hosting/?aff=26885',
   },
   {
     nama: 'Monster',
@@ -36,7 +36,7 @@ export const paketWebHosting = [
     domain: 'Gratis Domain .COM',
     performance: '4X Performance',
     badge: 'BEST PERFORMANCE' as string | null,
-    href: 'https://domainesia.com/hosting/',
+    href: 'https://www.domainesia.com/hosting/?aff=26885',
   },
   {
     nama: 'Cloud Hosting',
@@ -49,7 +49,7 @@ export const paketWebHosting = [
     domain: 'Gratis Domain .CLOUD',
     performance: '8X Performance',
     badge: null as string | null,
-    href: 'https://domainesia.com/hosting/',
+    href: 'https://www.domainesia.com/hosting/?aff=26885',
   },
 ];
 

@@ -12,7 +12,7 @@ export const paketMigrasi = [
       'Unlimited Website', 'Unlimited Database', 'Unlimited Bandwidth',
       'Remote Backup', '2X Performance', 'Fitur Essential', 'Fitur Advanced',
     ],
-    href: 'https://domainesia.com/migrasi/',
+    href: 'https://www.domainesia.com/hosting/?aff=26885',
   },
   {
     nama: 'Monster',
@@ -27,7 +27,7 @@ export const paketMigrasi = [
       'Unlimited Website', 'Unlimited Database', 'Unlimited Bandwidth',
       'Remote Backup', '4X Performance', 'Fitur Essential', 'Fitur Advanced', 'Fitur Pro',
     ],
-    href: 'https://domainesia.com/migrasi/',
+    href: 'https://www.domainesia.com/hosting/?aff=26885',
   },
   {
     nama: 'Cirrus 2GB',
@@ -43,7 +43,7 @@ export const paketMigrasi = [
       'Remote Backup', 'Semi Dedicated Resource', '8X Performance',
       'Fitur Essential', 'Fitur Advanced', 'Fitur Pro', 'Optimisasi Security',
     ],
-    href: 'https://domainesia.com/migrasi/',
+    href: 'https://www.domainesia.com/cloud-hosting/?aff=26885',
   },
   {
     nama: 'Cirrus 4GB',
@@ -59,7 +59,7 @@ export const paketMigrasi = [
       'Remote Backup', 'Semi Dedicated Resource', '10X Performance',
       'Fitur Essential', 'Fitur Advanced', 'Fitur Pro', 'Optimisasi Security',
     ],
-    href: 'https://domainesia.com/migrasi/',
+    href: 'https://www.domainesia.com/cloud-hosting/?aff=26885',
   },
 ];
 

@@ -9,7 +9,7 @@ export const paketWordPress = [
     ram: '768 MB RAM',
     cpu: '75% CPU',
     badge: null as string | null,
-    href: 'https://domainesia.com/hosting-wordpress/',
+    href: 'https://www.domainesia.com/hosting-wordpress/?aff=26885',
   },
   {
     nama: 'Business',
@@ -21,7 +21,7 @@ export const paketWordPress = [
     ram: '1 GB RAM',
     cpu: '100% CPU',
     badge: 'RECOMMENDED' as string | null,
-    href: 'https://domainesia.com/hosting-wordpress/',
+    href: 'https://www.domainesia.com/hosting-wordpress/?aff=26885',
   },
   {
     nama: 'Ecommerce',
@@ -33,7 +33,7 @@ export const paketWordPress = [
     ram: '2 GB RAM',
     cpu: '150% CPU',
     badge: null as string | null,
-    href: 'https://domainesia.com/hosting-wordpress/',
+    href: 'https://www.domainesia.com/hosting-wordpress/?aff=26885',
   },
 ];
 

@@ -174,7 +174,7 @@ export default function CloudVPSLitePage() {
                 ))}
               </div>
               <a
-                href="https://my.domainesia.com/ref.php?u=26885"
+                href="https://www.domainesia.com/cloud-vps-lite/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-bold px-7 py-3.5 rounded-xl transition-colors shadow-md text-sm"
@@ -230,7 +230,7 @@ export default function CloudVPSLitePage() {
         {/* ── BANNER AFILIASI ── */}
         <section className="py-6 px-4 bg-white flex justify-center">
           <a
-            href="https://my.domainesia.com/ref.php?u=26885"
+            href="https://www.domainesia.com/cloud-vps-lite/?aff=26885"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -360,7 +360,7 @@ export default function CloudVPSLitePage() {
             </div>
             <div className="flex flex-col sm:flex-row gap-3 flex-shrink-0">
               <a
-                href="https://my.domainesia.com/ref.php?u=26885"
+                href="https://www.domainesia.com/cloud-vps-lite/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-semibold px-6 py-3 rounded-xl transition-colors text-sm whitespace-nowrap"

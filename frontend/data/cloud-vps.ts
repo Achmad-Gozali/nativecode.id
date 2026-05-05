@@ -27,7 +27,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: null,
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 2GB',
@@ -39,7 +39,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: 'BEST VALUE',
     rekomendasi: true,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 4GB',
@@ -51,7 +51,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: 'BEST PERFORMANCE',
     rekomendasi: true,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 8GB',
@@ -63,7 +63,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: null,
     rekomendasi: true,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 12GB',
@@ -75,7 +75,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: null,
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 16GB',
@@ -87,7 +87,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: null,
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 24GB',
@@ -99,7 +99,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: null,
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 32GB',
@@ -111,7 +111,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: null,
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
   {
     nama: 'Cloud VPS Turbo 64GB',
@@ -123,7 +123,7 @@ export const paketVPSTurbo: PaketVPSTurbo[] = [
     ip: 'Dedicated IP',
     badge: null,
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps/?aff=26885',
   },
 ];
 

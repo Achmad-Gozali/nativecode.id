@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Navigasi from '@/komponen/Navigasi';
 import Footer from '@/komponen/Footer';
 
+const AFF = '?aff=26885';
+
 const HeadphonesIcon = ({ size = 18 }: { size?: number }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
     <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
@@ -30,7 +32,7 @@ export default function DomainMurah() {
   const handleCek = () => {
     if (!keyword.trim()) return;
     const domain = keyword.trim().toLowerCase().replace(/\s+/g, '');
-    window.open(`https://www.domainesia.com/domain/?domain=${domain}`, '_blank');
+    window.open(`https://www.domainesia.com/domain/${AFF}&domain=${domain}`, '_blank');
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -144,7 +146,10 @@ export default function DomainMurah() {
                   {d.hargaCoret && <p className="text-gray-400 text-xs line-through">{d.hargaCoret}</p>}
                   <p className="text-lg font-bold text-gray-900">{d.harga}<span className="text-sm font-normal text-gray-400">/tahun</span></p>
                 </div>
-                <a href={`https://www.domainesia.com/domain/?domain=${keyword || 'namadomainanda'}&ext=${d.ext.replace('.', '')}`} target="_blank" rel="noopener noreferrer"
+                <a
+                  href={`https://www.domainesia.com/domain/${AFF}&domain=${keyword || 'namadomainanda'}&ext=${d.ext.replace('.', '')}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-full py-2.5 rounded-full border border-[#D17B36] text-[#D17B36] text-sm font-semibold text-center hover:bg-[#D17B36] hover:text-white transition-colors">
                   Beli Sekarang
                 </a>
@@ -152,7 +157,10 @@ export default function DomainMurah() {
             ))}
           </div>
           <div className="mt-8 text-center">
-            <a href="https://www.domainesia.com/domain/" target="_blank" rel="noopener noreferrer"
+            <a
+              href={`https://www.domainesia.com/domain/${AFF}`}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-[#5D9C76] text-[#5D9C76] px-6 py-3 rounded-full font-semibold hover:bg-[#5D9C76] hover:text-white transition-colors text-sm">
               Lihat Semua Ekstensi Domain
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7M7 7h10v10"/></svg>

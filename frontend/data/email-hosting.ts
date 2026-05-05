@@ -10,7 +10,7 @@ export const paketEmailHosting = [
     userMax: 300,
     smtpPerHari: '250 email/hari/user',
     badge: null,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/email-hosting/?aff=26885',
   },
   {
     nama: 'Pro',
@@ -23,7 +23,7 @@ export const paketEmailHosting = [
     userMax: 999,
     smtpPerHari: '500 email/hari/user',
     badge: 'RECOMMENDED',
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/email-hosting/?aff=26885',
   },
   {
     nama: 'Max',
@@ -36,7 +36,7 @@ export const paketEmailHosting = [
     userMax: 999,
     smtpPerHari: '1.000 email/hari/user',
     badge: null,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/email-hosting/?aff=26885',
   },
 ];
 

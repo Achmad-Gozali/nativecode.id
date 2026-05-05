@@ -135,7 +135,7 @@ function AffiliateBanner() {
         </div>
         
         <a
-          href="https://my.domainesia.com/ref.php?u=26885"
+          href="https://www.domainesia.com/cloud-hosting/?aff=26885"
           target="_blank"
           rel="noopener noreferrer"
           className="block rounded-xl overflow-hidden hover:opacity-95 transition-opacity shadow-sm"
@@ -194,7 +194,7 @@ export default function CloudHostingPage() {
               <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
                 
                 <a
-                  href="https://my.domainesia.com/ref.php?u=26885"
+                  href="https://www.domainesia.com/cloud-hosting/?aff=26885"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white text-[#1a73c5] hover:bg-blue-50 font-semibold px-6 py-3 rounded-xl transition-colors"
@@ -301,7 +301,7 @@ export default function CloudHostingPage() {
                       </div>
                       
                       <a
-                        href="https://my.domainesia.com/ref.php?u=26885"
+                        href="https://www.domainesia.com/cloud-hosting/?aff=26885"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full text-center font-semibold py-2.5 rounded-xl text-sm transition-colors bg-[#1a73c5] hover:bg-[#1557a0] text-white mt-4 mb-5"
@@ -343,7 +343,7 @@ export default function CloudHostingPage() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               
               <a
-                href="https://my.domainesia.com/ref.php?u=26885"
+                href="https://www.domainesia.com/cloud-hosting/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white text-[#1a73c5] hover:bg-blue-50 font-semibold px-6 py-3 rounded-xl transition-colors"

@@ -25,7 +25,7 @@ export const paketVPSLite: PaketVPS[] = [
     bandwidth: 'Unlimited Bandwith',
     ip: 'Dedicated IP',
     rekomendasi: true,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps-lite/?aff=26885',
   },
   {
     nama: 'Cloud VPS Lite 2GB',
@@ -36,7 +36,7 @@ export const paketVPSLite: PaketVPS[] = [
     bandwidth: 'Unlimited Bandwith',
     ip: 'Dedicated IP',
     rekomendasi: true,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps-lite/?aff=26885',
   },
   {
     nama: 'Cloud VPS Lite 4GB',
@@ -47,7 +47,7 @@ export const paketVPSLite: PaketVPS[] = [
     bandwidth: 'Unlimited Bandwith',
     ip: 'Dedicated IP',
     rekomendasi: true,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps-lite/?aff=26885',
   },
   {
     nama: 'Cloud VPS Lite 8GB',
@@ -58,7 +58,7 @@ export const paketVPSLite: PaketVPS[] = [
     bandwidth: 'Unlimited Bandwith',
     ip: 'Dedicated IP',
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps-lite/?aff=26885',
   },
   {
     nama: 'Cloud VPS Lite 12GB',
@@ -69,7 +69,7 @@ export const paketVPSLite: PaketVPS[] = [
     bandwidth: 'Unlimited Bandwith',
     ip: 'Dedicated IP',
     rekomendasi: false,
-    href: 'https://my.domainesia.com/ref.php?u=26885',
+    href: 'https://www.domainesia.com/cloud-vps-lite/?aff=26885',
   },
 ];
 

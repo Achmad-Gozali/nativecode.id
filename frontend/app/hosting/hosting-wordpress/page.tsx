@@ -200,7 +200,7 @@ function AffiliateBanner() {
           <span className="h-px flex-1 bg-gray-100" />
         </div>
         <a
-          href="https://my.domainesia.com/ref.php?u=26885"
+          href="https://www.domainesia.com/hosting-wordpress/?aff=26885"
           target="_blank"
           rel="noopener noreferrer"
           className="block rounded-xl overflow-hidden hover:opacity-95 transition-opacity shadow-sm"
@@ -246,7 +246,7 @@ export default function HostingWordPressPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
                 <a
-                  href="https://my.domainesia.com/ref.php?u=26885"
+                  href="https://www.domainesia.com/hosting-wordpress/?aff=26885"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#D17B36] hover:bg-[#b8692d] text-white font-semibold px-8 py-3.5 rounded-xl transition-colors text-sm"
@@ -353,7 +353,7 @@ export default function HostingWordPressPage() {
                         <p className="text-xs text-blue-500 mt-0.5">Harga perpanjangan <span className="font-semibold">Rp{formatHarga(p.harga)}/bulan</span></p>
                       </div>
                       <a
-                        href="https://my.domainesia.com/ref.php?u=26885"
+                        href="https://www.domainesia.com/hosting-wordpress/?aff=26885"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full text-center font-semibold py-2.5 rounded-xl text-sm transition-colors bg-[#1a6fc4] hover:bg-[#155fa8] text-white mt-4 mb-5"
@@ -419,7 +419,7 @@ export default function HostingWordPressPage() {
             <p className="text-white/60 text-sm mb-6">Kami bantu rekomendasikan paket yang paling tepat sebelum Anda beli di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="https://my.domainesia.com/ref.php?u=26885"
+                href="https://www.domainesia.com/hosting-wordpress/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#D17B36] hover:bg-[#b8692d] text-white font-semibold px-6 py-3 rounded-xl transition-colors"

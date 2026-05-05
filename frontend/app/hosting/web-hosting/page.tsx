@@ -158,7 +158,7 @@ export default function WebHostingPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
                 <a
-                  href="https://my.domainesia.com/ref.php?u=26885"
+                  href="https://www.domainesia.com/hosting/?aff=26885"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#D17B36] hover:bg-[#b8692d] text-white font-semibold px-7 py-3.5 rounded-xl transition-colors shadow-lg text-sm"
@@ -216,7 +216,7 @@ export default function WebHostingPage() {
         {/* ── BANNER AFILIASI ── */}
         <section className="py-8 px-4 bg-gray-50 flex justify-center">
           <a
-            href="https://my.domainesia.com/ref.php?u=26885"
+            href="https://www.domainesia.com/hosting/?aff=26885"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -290,7 +290,7 @@ export default function WebHostingPage() {
                         ))}
                       </ul>
                       <a
-                        href="https://my.domainesia.com/ref.php?u=26885"
+                        href="https://www.domainesia.com/hosting/?aff=26885"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={`w-full text-center font-semibold py-2.5 rounded-xl text-sm transition-colors ${
@@ -324,7 +324,7 @@ export default function WebHostingPage() {
             <p className="text-white/60 text-sm mb-6">Kami akan bantu rekomendasikan paket yang paling sesuai sebelum Anda beli di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="https://my.domainesia.com/ref.php?u=26885"
+                href="https://www.domainesia.com/hosting/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#D17B36] hover:bg-[#b8692d] text-white font-semibold px-6 py-3 rounded-xl transition-colors"

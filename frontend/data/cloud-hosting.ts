@@ -1,10 +1,10 @@
 export const paketCloudHosting = [
-  { nama: 'Cirrus 2GB',  harga: 112500,  hargaAsli: 225000,  diskon: 50, cpu: '2 Core CPU',  ram: '2 GB RAM',  storage: '40 GB SSD NVMe',   href: 'https://domainesia.com/cloud-hosting/' },
-  { nama: 'Cirrus 4GB',  harga: 210000,  hargaAsli: 336000,  diskon: 38, cpu: '3 Core CPU',  ram: '4 GB RAM',  storage: '80 GB SSD NVMe',   href: 'https://domainesia.com/cloud-hosting/' },
-  { nama: 'Cirrus 8GB',  harga: 390000,  hargaAsli: 624000,  diskon: 38, cpu: '4 Core CPU',  ram: '8 GB RAM',  storage: '160 GB SSD NVMe',  href: 'https://domainesia.com/cloud-hosting/' },
-  { nama: 'Cirrus 12GB', harga: 705000,  hargaAsli: 1128000, diskon: 38, cpu: '6 Core CPU',  ram: '12 GB RAM', storage: '320 GB SSD NVMe',  href: 'https://domainesia.com/cloud-hosting/' },
-  { nama: 'Cirrus 16GB', harga: 1260000, hargaAsli: 2016000, diskon: 38, cpu: '8 Core CPU',  ram: '16 GB RAM', storage: '640 GB SSD NVMe',  href: 'https://domainesia.com/cloud-hosting/' },
-  { nama: 'Cirrus 24GB', harga: 2250000, hargaAsli: 3600000, diskon: 38, cpu: '12 Core CPU', ram: '24 GB RAM', storage: '1200 GB SSD NVMe', href: 'https://domainesia.com/cloud-hosting/' },
+  { nama: 'Cirrus 2GB',  harga: 112500,  hargaAsli: 225000,  diskon: 50, cpu: '2 Core CPU',  ram: '2 GB RAM',  storage: '40 GB SSD NVMe',   href: 'https://www.domainesia.com/cloud-hosting/?aff=26885' },
+  { nama: 'Cirrus 4GB',  harga: 210000,  hargaAsli: 336000,  diskon: 38, cpu: '3 Core CPU',  ram: '4 GB RAM',  storage: '80 GB SSD NVMe',   href: 'https://www.domainesia.com/cloud-hosting/?aff=26885' },
+  { nama: 'Cirrus 8GB',  harga: 390000,  hargaAsli: 624000,  diskon: 38, cpu: '4 Core CPU',  ram: '8 GB RAM',  storage: '160 GB SSD NVMe',  href: 'https://www.domainesia.com/cloud-hosting/?aff=26885' },
+  { nama: 'Cirrus 12GB', harga: 705000,  hargaAsli: 1128000, diskon: 38, cpu: '6 Core CPU',  ram: '12 GB RAM', storage: '320 GB SSD NVMe',  href: 'https://www.domainesia.com/cloud-hosting/?aff=26885' },
+  { nama: 'Cirrus 16GB', harga: 1260000, hargaAsli: 2016000, diskon: 38, cpu: '8 Core CPU',  ram: '16 GB RAM', storage: '640 GB SSD NVMe',  href: 'https://www.domainesia.com/cloud-hosting/?aff=26885' },
+  { nama: 'Cirrus 24GB', harga: 2250000, hargaAsli: 3600000, diskon: 38, cpu: '12 Core CPU', ram: '24 GB RAM', storage: '1200 GB SSD NVMe', href: 'https://www.domainesia.com/cloud-hosting/?aff=26885' },
 ];
 
 export const paketHeadersCloudHosting = ['Cirrus 2GB', 'Cirrus 4GB', 'Cirrus 8GB', 'Cirrus 12GB'];

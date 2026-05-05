@@ -215,7 +215,7 @@ export default function MigrasiPage() {
 
               <div className="flex flex-col sm:flex-row gap-3 justify-center sm:justify-start">
                 <a
-                  href="https://domainesia.com/migrasi/"
+                  href="https://www.domainesia.com/hosting/?aff=26885"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-semibold px-7 py-3.5 rounded-xl transition-colors shadow-lg text-sm"
@@ -259,7 +259,7 @@ export default function MigrasiPage() {
                     Dapatkan web hosting dengan teknologi Cloud Storage berbasis SSD NVMe dan 3X Replikasi Data melalui rekomendasi nativecode.id. Nikmati berbagai fitur terbaik, gratis transfer, serta gratis masa aktif hosting selama 1 bulan.
                   </p>
                   <a
-                    href="https://domainesia.com/migrasi/"
+                    href="https://www.domainesia.com/hosting/?aff=26885"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-semibold px-6 py-2.5 rounded-xl text-sm transition-colors"
@@ -476,7 +476,7 @@ export default function MigrasiPage() {
             <p className="text-white/60 text-sm mb-6">Kami bantu rekomendasikan paket yang paling tepat sebelum Anda transfer di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="https://domainesia.com/migrasi/"
+                href="https://www.domainesia.com/hosting/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#D17B36] hover:bg-[#b8692d] text-white font-semibold px-6 py-3 rounded-xl transition-colors"

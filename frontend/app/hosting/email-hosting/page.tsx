@@ -222,7 +222,7 @@ export default function EmailHostingPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="https://my.domainesia.com/ref.php?u=26885"
+                  href="https://www.domainesia.com/email-hosting/?aff=26885"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-bold px-7 py-3.5 rounded-xl transition-colors shadow-md text-sm"
@@ -459,7 +459,7 @@ export default function EmailHostingPage() {
             <p className="text-white/60 text-sm mb-6">Kami bantu rekomendasikan paket yang paling tepat sebelum Anda beli di DomaiNesia.</p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="https://my.domainesia.com/ref.php?u=26885"
+                href="https://www.domainesia.com/email-hosting/?aff=26885"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#5D9C76] hover:bg-[#4a7d5e] text-white font-semibold px-6 py-3 rounded-xl transition-colors"
